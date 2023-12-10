@@ -4,6 +4,7 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
+  --blake-800: #23222b;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
@@ -17,11 +18,8 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    background-size: 10rem;
+    background-repeat: repeat;
+    background-image: url("https://assets-global.website-files.com/62c6f0db8f3bd1cd89369e11/63692dc4d63c3c7a0e928e04_pattern-new.png");
+    background-blend-mode: multiply;
 }
