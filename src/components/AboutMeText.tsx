@@ -12,12 +12,11 @@ export function AboutMeText() {
     >
       <div className="text-4xl leading-tight text-matrix-light">
         Ingeniero de sistemas con 4+ años de experiencia que cree fervientemente
-        que con
+        que con{" "}
         <span className="text-matrix-normal">
-          orden, pasion y persistencia 
-          {" "}
+          orden, pasion y persistencia{" "}
         </span>
-         es posible crear cualquier producto para ayudar a las personas a tener
+        es posible crear cualquier producto para ayudar a las personas a tener
         <span className="text-matrix-normal"> una mejor vida</span>.
       </div>
     </motion.div>
