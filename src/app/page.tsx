@@ -1,13 +1,21 @@
 import { ContactButtons } from "../components/ContactButtons";
 import { MainScreen } from "../components/MainScreen";
-
+import { AboutMeText } from "../components/AboutMeText";
+import Companies from "../components/Companies";
+import { Portfolio } from "../components/Portfolio";
+import { Footer } from "./Footer";
 
 export default function Home() {
   return (
     <main>
       <MainScreen />
       <ContactButtons />
-      <div className="h-20 "></div>
+      <AboutMeText />
+      <Companies />
+      <Portfolio />
+      <Footer/>
     </main>
   );
 }
+
+

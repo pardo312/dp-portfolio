@@ -35,10 +35,24 @@ function Title({ isProfilePicFocused }: { isProfilePicFocused: boolean }) {
       }}
       className={"flex flex-col items-center justify-center"}
     >
-      <div className="text-[18rem] leading-tight text-matrix-normal">
+      <motion.div
+        initial={{ opacity: 0 ,y:-100}}
+        whileInView={{ opacity: 1 ,y:0}}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className="text-[18rem] leading-tight text-matrix-normal"
+      >
         Daniel
-      </div>
-      <div className="text-[18rem] leading-tight text-matrix-normal">Pardo</div>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 ,y:100}}
+        whileInView={{ opacity: 1 ,y:0}}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className="text-[18rem] leading-tight text-matrix-normal"
+      >
+        Pardo
+      </motion.div>
     </motion.div>
   );
 }
