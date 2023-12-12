@@ -21,13 +21,13 @@ export function PhoneCard({ title }: { title: string }) {
         <div className="-translate-y-5 w-full h-full rounded-full flex flex-col relative">
           <div className="flex justify-center items-center w-full h-full">
             <img
-              src="/Images/Frames/IphoneFrame.png"
+              src="/Images/Portfolio/Frames/IphoneFrame.png"
               alt="Frame Image"
               className="w-[220px] h-[450px] z-10 rounded-3xl pointer-events-none"
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <img
-                src="/Images/Frames/menu-alchemy.png"
+                src="/Images/Portfolio/Frames/menu-alchemy.png"
                 width="200px"
                 height="431.8px"
                 className="ml-1 2xl:ml-4 border-0 rounded-3xl"

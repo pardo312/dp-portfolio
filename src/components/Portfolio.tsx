@@ -38,6 +38,7 @@ const cards2 = [
     className: "rounded-md border-4 border-matrix-light col-span-2 row-span-1",
     type: "icon",
     colSize: 2,
+    icon:"/Images/Portfolio/Icons/Thropy.svg"
   },
   {
     className: "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
@@ -47,11 +48,13 @@ const cards2 = [
     className: "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     type: "icon",
     colSize: 1,
+    icon:"/Images/Portfolio/Icons/Vim.svg"
   },
   {
     className: "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     type: "icon",
     colSize: 1,
+    icon:"/Images/Portfolio/Icons/Andes.png"
   },
   {
     className: "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
@@ -69,21 +72,25 @@ const cards2 = [
     className: "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     type: "icon",
     colSize: 1,
+    icon:"/Images/Portfolio/Icons/HDV.svg"
   },
   {
     className: "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     type: "icon",
     colSize: 1,
+    icon:"/Images/Portfolio/Icons/Experience.svg"
   },
   {
     className: "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     type: "icon",
     colSize: 1,
+    icon:"/Images/Portfolio/Icons/Git.svg"
   },
   {
     className: "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     type: "icon",
     colSize: 1,
+    icon:"/Images/Portfolio/Icons/JiufenGames.png"
   },
   {
     className: "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
@@ -97,6 +104,7 @@ const cards2 = [
     className: "rounded-md border-4 border-matrix-light col-span-2 row-span-1",
     type: "icon",
     colSize: 2,
+    icon:"/Images/TechBubbleLogos/Unity.svg"
   },
 ];
 
@@ -110,8 +118,9 @@ function PortfolioBento() {
               return (
                 <IconCard
                   key={"bento_card_" + index}
-                  title={""}
                   colSize={item.colSize}
+                  imageSrc={item.icon}
+                  description={"Pending description"}
                 />
               );
             case "phone":

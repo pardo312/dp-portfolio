@@ -1,12 +1,14 @@
 "use client";
-
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export function IconCard({
-  title,
+  imageSrc = "/Images/TechBubbleLogos/Unity.svg",
+  description,
   colSize = 1,
 }: {
-  title: string;
+  imageSrc: string|undefined;
+  description: string;
   colSize: number | undefined;
 }) {
   return (
@@ -18,9 +20,18 @@ export function IconCard({
       whileInView={{
         opacity: 1,
         scale: 1,
-        transition: { duration: 1},
+        transition: { duration: 1 },
       }}
-      className={`rounded-md border-4 border-matrix-light col-span-${colSize} row-span-1`}
-    ></motion.div>
+      className={`rounded-3xl bg-black-ligth col-span-${colSize} row-span-1`}
+    >
+      <div className="flex h-full w-full justify-center items-center ">
+          <Image
+            src={imageSrc}
+            width={70}
+            height={70}
+            alt="PhoneFrame"
+          />
+      </div>
+    </motion.div>
   );
 }
