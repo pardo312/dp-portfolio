@@ -8,7 +8,7 @@ export function AboutMeText() {
       initial={{ opacity: 0.1, y: 100 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      className={"flex items-center justify-center text-center my-40 mx-8 md:mx-40 text-2xl md:text-4xl "}
+      className={"flex items-center justify-center text-center my-40 mx-8 md:mx-32 text-2xl md:text-4xl "}
     >
       <div className="leading-tight text-matrix-light">
         Ingeniero de sistemas con 4+ años de experiencia que cree fervientemente

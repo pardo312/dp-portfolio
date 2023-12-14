@@ -1,0 +1,152 @@
+[
+  {
+    "title":"Menu Alchemy",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
+    "type": "phone",
+    "images": [
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-0.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-1.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-2.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-3.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-4.png"
+    ]
+  },
+  {
+    "title":"Wizards Nostalgia",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "type": "pc",
+    "images": [
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.png"
+    ]
+  },
+  {
+    "title":"Throphy",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-1",
+    "type": "icon",
+    "colSize": 2,
+    "icon": "/Images/Portfolio/Icons/Thropy.svg"
+  },
+  {
+    "title":"Hachi",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
+    "type": "phone",
+    "images": [
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-0.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-1.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-2.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-3.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-4.png"
+    ]
+  },
+  {
+    "title":"Git",
+    "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
+    "type": "icon",
+    "colSize": 1,
+    "icon": "/Images/Portfolio/Icons/Git.svg"
+  },
+  {
+    "title":"Andes",
+    "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
+    "type": "icon",
+    "colSize": 1,
+    "icon": "/Images/Portfolio/Icons/Andes.png"
+  },
+  {
+    "title":"Legalmatic",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "type": "pc",
+    "images": [
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.png"
+    ]
+  },
+  {
+    "title":"Curriculum",
+    "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
+    "type": "icon",
+    "colSize": 1,
+    "icon": "/Images/Portfolio/Icons/HDV.svg"
+  },
+  {
+    "title":"Jiufen Games",
+    "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
+    "type": "icon",
+    "colSize": 1,
+    "icon": "/Images/Portfolio/Icons/JiufenGames.png"
+  },
+  {
+    "title":"Boom Away",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "type": "pc",
+    "images": [
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.png"
+    ]
+  },
+  {
+    "title":"Puzzle",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
+    "type": "phone",
+    "images": [
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-0.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-1.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-2.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-3.png",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-4.png"
+    ]
+  },
+  {
+    "title":"Work experience",
+    "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
+    "type": "icon",
+    "colSize": 1,
+    "icon": "/Images/Portfolio/Icons/Experience.svg"
+  },
+  {
+    "title":"Vim",
+    "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
+    "type": "icon",
+    "colSize": 1,
+    "icon": "/Images/Portfolio/Icons/Vim.svg"
+  },
+  {
+    "title":"Shakespear in the metaverse",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "type": "pc",
+    "images": [
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.png"
+    ]
+  },
+  {
+    "title":"La reconstruccion",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "type": "pc",
+    "images": [
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.png",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.png"
+    ]
+  },
+  {
+    "title":"Want to work together?",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-1",
+    "type": "cta"
+  }
+]

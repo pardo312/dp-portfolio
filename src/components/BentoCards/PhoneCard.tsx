@@ -67,7 +67,7 @@ export function PhoneCard({
             currentImage={currentImage}
             nextImage={nextImage}
           />
-          <PhoneCardBottomBar />
+          <PhoneCardBottomBar title={title} />
         </div>
       </div>
     </motion.div>
@@ -94,7 +94,7 @@ function PhoneMockup({
           className="z-10 pointer-events-none "
         />
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="bg-black w-[200px] h-[420px] md:max-h-[60vw] lg:max-h-[40vw] xl:max-h-[40vw] rounded-2xl lg:rounded-3xl"></div>
+          <div className="bg-black w-[200px] h-[420px] md:max-h-[60vw] lg:max-h-[40vw] xl:max-h-[40vw] rounded-2xl lg:rounded-3xl"/>
         </div>
         <div className=" absolute inset-0 flex items-center justify-center">
           <img
@@ -109,7 +109,7 @@ function PhoneMockup({
   );
 }
 
-function PhoneCardBottomBar() {
+function PhoneCardBottomBar({ title }: { title: string }) {
   return (
     <div className="flex w-full justify-start items-center pr-6 pl-3">
       <div className="flex w-full icons gap-3">
@@ -130,7 +130,7 @@ function PhoneCardBottomBar() {
           />
         </div>
       </div>
-      <div className="text-xl text-center ">Hachi</div>
+      <div className="text-md xl:text-xl text-center ">{title}</div>
     </div>
   );
 }

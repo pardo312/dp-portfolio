@@ -62,7 +62,7 @@ export function PcCard({ title, images }: { title: string; images: string[] }) {
             nextImage={nextImage}
           />
           {/**Bottom bar */}
-          <PcCardBottomBar />
+          <PcCardBottomBar title={title} />
         </div>
       </div>
     </motion.div>
@@ -89,14 +89,14 @@ function PcMockup({
           className="z-10  pointer-events-none"
         />
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="bg-black w-[250px] h-[165px] max-w-[16rem] lg:max-h-[14vw] lg:max-w-[21vw]" />
+          <div className="bg-black w-[250px] h-[165px] max-w-[80%] min-h-[65%] lg:min-h-[80%] lg:max-w-[21vw]" />
         </div>
 
         <div className="absolute mb-3 inset-0 flex items-center justify-center">
           <img
             src={images[currentImage]}
-            className="w-[80%] max-w-[15rem] h-auto transition-opacity duration-1000"
-            style={{ opacity: nextImage === currentImage ? 0 : 0 }}
+            className="w-[15rem] max-w-[80%] lg:max-w-[80%] h-auto min-h-[65%] lg:min-h-[80%] transition-opacity duration-1000"
+            style={{ opacity: nextImage === currentImage ? 1 : 0 }}
             title="Image phone"
           />
         </div>
@@ -105,9 +105,9 @@ function PcMockup({
   );
 }
 
-function PcCardBottomBar() {
+function PcCardBottomBar({ title }: { title: string }) {
   return (
-    <div className="flex w-full justify-start items-center pr-6 pl-3">
+    <div className="flex w-full justify-between items-center pr-6 pl-3">
       <div className="flex w-full icons gap-3">
         <div className="rounded-full border-2 border-matrix-light bg-black-ligth w-14 h-14 flex justify-center items-center">
           <Image
@@ -126,7 +126,7 @@ function PcCardBottomBar() {
           />
         </div>
       </div>
-      <div className="text-xl text-center ">Hachi</div>
+      <div className="text-sm xl:text-xl text-center ">{title}</div>
     </div>
   );
 }
