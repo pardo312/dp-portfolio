@@ -20,7 +20,7 @@ const buttons = [
 
 export function ContactButtons() {
   return (
-    <div className="mt-[-3rem] ml-[-2rem] flex relative gap-5 items-center justify-center">
+    <div className="mb-[40vh] md:mb-0 md:mt-[-3rem] md:ml-[-2rem] flex relative gap-5 items-center justify-center">
       {buttons.map((button, index) => (
         <motion.a
           key={"contact_button_" + index}

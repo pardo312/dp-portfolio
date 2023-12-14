@@ -21,7 +21,7 @@ export default function Companies() {
   return (
     <div
       className={
-        "flex flex-col gap-y-16 items-center justify-center text-center mx-72 my-40"
+        "flex flex-col gap-y-16 items-center justify-center text-center my-40 mx-10 md:mx-72 md:mt-40 md:mb-20 text-2xl md:text-4xl"
       }
     >
       <motion.div
@@ -30,7 +30,7 @@ export default function Companies() {
         transition={{ duration: 1 }}
         className={"flex items-center "}
       >
-        <div className="text-4xl leading-tight text-matrix-light ">
+        <div className="leading-tight text-matrix-light ">
           Estoy orgulloso de haber
           <span className="text-matrix-normal"> colaborado</span> con
           <span className="text-matrix-normal"> increibles</span> compañias

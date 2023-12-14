@@ -1,5 +1,7 @@
+"use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function ProfilePic({
   isProfilePicFocused,
@@ -8,8 +10,20 @@ export default function ProfilePic({
   isProfilePicFocused: boolean;
   setIsProfilePicFocused: any;
 }) {
+  const [isSmallDevice, setIsSmallDevice] = useState(window.innerWidth <= 768);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallDevice(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    <div className="absolute">
+    <div className="absolute" style={{ zoom: isSmallDevice ? 0.65 : 1 }}>
       <div className="absoulte ">
         <motion.div
           whileHover={{

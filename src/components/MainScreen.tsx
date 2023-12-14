@@ -12,7 +12,7 @@ export const cormorantUpright = Cormorant_Upright({
 export function MainScreen() {
   const [isProfilePicFocused, setIsProfilePicFocused] = useState(false);
   return (
-    <div className="mt-[-3rem] flex relative flex-col align-middle items-center justify-center ">
+    <div className="mt-[25vh] mb-[3rem] md:mb-0 md:mt-[-3rem] flex relative flex-col align-middle items-center justify-center ">
       <Title isProfilePicFocused={isProfilePicFocused} />
       <BannerOfThings />
       <ProfilePic
@@ -33,14 +33,14 @@ function Title({ isProfilePicFocused }: { isProfilePicFocused: boolean }) {
       transition={{
         duration: 0.3,
       }}
-      className={"flex flex-col items-center justify-center"}
+      className={"flex flex-col items-center justify-center text-[6rem] md:text-[18rem] gap-y-20 md:gap-y-0"}
     >
       <motion.div
         initial={{ opacity: 0 ,y:-100}}
         whileInView={{ opacity: 1 ,y:0}}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="text-[18rem] leading-tight text-matrix-normal"
+        className="leading-tight text-matrix-normal"
       >
         Daniel
       </motion.div>
@@ -49,7 +49,7 @@ function Title({ isProfilePicFocused }: { isProfilePicFocused: boolean }) {
         whileInView={{ opacity: 1 ,y:0}}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="text-[18rem] leading-tight text-matrix-normal"
+        className="leading-tight text-matrix-normal"
       >
         Pardo
       </motion.div>
@@ -74,13 +74,13 @@ function BannerOfThings() {
     <div
       className={
         cormorantUpright.className +
-        " absolute top-[43%] bg-matrix-dark w-full max-w-[100rem] h-24 overflow-hidden"
+        " absolute top-[35%] md:top-[43%] bg-matrix-dark w-full max-w-[100rem] h-20 md:h-24 overflow-hidden text-3xl md:text-6xl"
       }
     >
-      <div className="flex w-full h-full items-center overflow-hidden space-x-16 [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] ">
-        <div className="flex  space-x-16 text-6xl   animate animate-infinite-scroll">
+      <div className="flex w-full h-full items-center overflow-hidden space-x-8 md:space-x-16  md:[mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] ">
+        <div className="flex  space-x-6 md:space-x-16    animate animate-infinite-scroll">
           {things.map((thing, index) => (
-            <div key={"thing_" + index} className="flex space-x-16">
+            <div key={"thing_" + index} className="flex space-x-6 md:space-x-16">
               <div className=" leading-tight text-matrix-normal">{thing}</div>
               <div className="leading-tight text-matrix-normal">•</div>
             </div>

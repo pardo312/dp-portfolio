@@ -8,9 +8,9 @@ export function AboutMeText() {
       initial={{ opacity: 0.1, y: 100 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      className={"flex items-center justify-center text-center mx-40 my-40"}
+      className={"flex items-center justify-center text-center my-40 mx-8 md:mx-40 text-2xl md:text-4xl "}
     >
-      <div className="text-4xl leading-tight text-matrix-light">
+      <div className="leading-tight text-matrix-light">
         Ingeniero de sistemas con 4+ años de experiencia que cree fervientemente
         que con{" "}
         <span className="text-matrix-normal">
