@@ -10,20 +10,8 @@ export default function ProfilePic({
   isProfilePicFocused: boolean;
   setIsProfilePicFocused: any;
 }) {
-  const [isSmallDevice, setIsSmallDevice] = useState(false);
-  useEffect(() => {
-    const handleResize = () => {
-      setIsSmallDevice(window.innerWidth <= 768);
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
-    <div className="absolute" style={{ zoom: isSmallDevice ? 0.65 : 1 }}>
+    <div className="profilePic absolute" >
       <div className="absoulte ">
         <motion.div
           whileHover={{
