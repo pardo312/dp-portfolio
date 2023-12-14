@@ -10,7 +10,7 @@ export default function ProfilePic({
   isProfilePicFocused: boolean;
   setIsProfilePicFocused: any;
 }) {
-  const [isSmallDevice, setIsSmallDevice] = useState(window.innerWidth <= 768);
+  const [isSmallDevice, setIsSmallDevice] = useState(false);
   useEffect(() => {
     const handleResize = () => {
       setIsSmallDevice(window.innerWidth <= 768);
