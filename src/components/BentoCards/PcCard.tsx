@@ -22,6 +22,7 @@ export function PcCard({
 
   useEffect(() => {
     if (isHovering) setNextImage((currentImage + 1) % images.length);
+    else if (showInfo) setShowInfo(false);
   }, [isHovering]);
 
   useEffect(() => {

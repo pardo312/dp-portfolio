@@ -33,7 +33,7 @@ export function PcDetail({
     >
       <Brief brief={brief} url={url} isInfo={showInfo} />
       <CloseButton setShowInfo={setShowInfo} />
-      <Description description={description} />
+      {/* <Description description={description} /> */}
     </motion.div>
   );
 }
@@ -58,7 +58,7 @@ function Brief({
   return (
     <div className="absolute top-2 right-0 lg:right-2  text-center w-[50%] h-[50%] ">
       <div className="text-xl lg:text-2xl" dangerouslySetInnerHTML={{ __html: coloredBrief }}></div>
-      <div className="flex justify-center items-center w-full my-5 h-12">
+      <div className="flex justify-center items-center w-full my-2 h-12">
         <a
           style={{ pointerEvents: isInfo ? "auto" : "none" }}
           href={url}

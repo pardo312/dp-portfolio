@@ -3,7 +3,24 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-export function CustomCursor({ showInfo, isHovering }: { showInfo: boolean; isHovering: boolean; }) {
+interface CustomCursorProps {
+  showInfo?: boolean;
+  isHovering: boolean;
+  imageSrc?: string;
+  spin?: boolean;
+  sizeCursor?: number;
+  sizeIcon?: number;
+}
+export function CustomCursor(Props: CustomCursorProps) {
+  const {
+    showInfo = false,
+    isHovering = false,
+    imageSrc = "/Images/Portfolio/info.svg",
+    spin = true,
+    sizeCursor = 1,
+    sizeIcon = 70,
+  } = Props;
+
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -25,7 +42,7 @@ export function CustomCursor({ showInfo, isHovering }: { showInfo: boolean; isHo
         x: (mousePos.x - 45) * 1.35,
         y: (mousePos.y - 45) * 1.35,
         opacity: showInfo ? 0 : isHovering ? 1 : 0,
-        scale: showInfo ? 1.5 : isHovering ? 1 : 0.3,
+        scale: showInfo ? 1.5 : isHovering ? sizeCursor : 0.1,
       }}
       transition={{
         type: "tween",
@@ -33,14 +50,15 @@ export function CustomCursor({ showInfo, isHovering }: { showInfo: boolean; isHo
         opacity: { duration: 0.3 },
         scale: { duration: 0.4 },
       }}
-      className="fixed top-0 left-0  w-[7rem] h-[7rem] pointer-events-none "
+      className="fixed top-0 left-0 pointer-events-none w-[7rem] h-[7rem] "
     >
-      <div className="flex justify-center items-center w-full h-full rounded-full animate-spin-slow bg-black">
-        <Image
-          src={"/Images/Portfolio/info.svg"}
-          width={70}
-          height={70}
-          alt="PhoneFrame" />
+      <div
+        className={
+          "flex justify-center items-center w-full h-full rounded-full bg-black " +
+          (spin ? "animate-spin-slow" : "")
+        }
+      >
+        <Image src={imageSrc} width={sizeIcon} height={sizeIcon} alt="PhoneFrame" />
       </div>
     </motion.div>
   );

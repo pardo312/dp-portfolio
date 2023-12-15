@@ -53,6 +53,7 @@ function PortfolioBento({
                   colSize={item.colSize || 1}
                   image={item.image}
                   description={item.description || "Pending description"}
+                  url={item.url}
                 />
               );
             case "phone":
