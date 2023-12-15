@@ -73,6 +73,7 @@ export function PhoneCard({
           scale: 1,
           transition: { duration: 1 },
         }}
+        
         className={
           "col-span-2 row-span-4 h-full w-full " +
           (showInfo ? "cursor-default" : "cursor-none")
@@ -104,6 +105,7 @@ export function PhoneCard({
     </>
   );
 }
+
 function PhoneContent({
   brief,
   url,
