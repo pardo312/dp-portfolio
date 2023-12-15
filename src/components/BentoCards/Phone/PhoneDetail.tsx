@@ -23,7 +23,7 @@ export function PhoneDetail({
         opacity: showInfo ? 1 : 0,
       }}
       className={
-        " text-matrix-dark text-2xl md:text-xl xl:text-[2vw] 2xl:text-2xl flex justify-center items-center " +
+        "text-matrix-dark text-2xl md:text-xl xl:text-[2vw] 2xl:text-2xl  justify-center items-center " +
         cormorantUpright.className
       }
     >

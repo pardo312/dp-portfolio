@@ -50,7 +50,7 @@ export function CustomCursor(Props: CustomCursorProps) {
         opacity: { duration: 0.3 },
         scale: { duration: 0.4 },
       }}
-      className="fixed top-0 left-0 pointer-events-none w-[7rem] h-[7rem] "
+      className="fixed top-0 left-0 pointer-events-none w-[7rem] h-[7rem] hidden md:block"
     >
       <div
         className={

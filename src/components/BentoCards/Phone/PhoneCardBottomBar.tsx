@@ -28,7 +28,7 @@ export function PhoneCardBottomBar({
           />
         </div>
       </div>
-      <div className="flex text-md xl:text-xl text-center font-bold w-52 gap-5 items-center h-20 mx-10">
+      <div className="flex text-md xl:text-xl text-center font-bold w-52 gap-5 items-center h-20 md:mx-10 -translate-x-5">
         <Image src={icon} width={50} height={50} alt="Project icon" className="p-1 w-14 h-14 rounded-full bg-black-ligthest border-[1px] border-matrix-light" />
         {title}
       </div>

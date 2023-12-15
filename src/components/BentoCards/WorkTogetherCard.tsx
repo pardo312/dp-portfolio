@@ -1,7 +1,24 @@
 "use client";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export function WorkTogetherCard({ seeAll }: { seeAll: boolean }) {
+  const [effect, setEffect] = useState(false);
+  useEffect(() => {
+    let intervalId: any;
+
+    if (effect) {
+      intervalId = setInterval(() => {
+        setEffect(false);
+      }, 3000);
+    }
+
+    return () => {
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
+    };
+  }, [effect]);
   return (
     <motion.div
       initial={{
@@ -21,10 +38,29 @@ export function WorkTogetherCard({ seeAll }: { seeAll: boolean }) {
         seeAll ? "" : "h-32 mx-6 md:mx-52 lg:mx-72 my-20"
       }`}
     >
-      <a href="mailto:pardod312@gmail.com"  className="flex h-full w-full justify-center items-center text-2xl text-center p-10 bg-matrix-normal rounded-3xl  border-[3px]  border-black drop-shadow-glow">
+      <a
+        href="mailto:pardod312@gmail.com"
+        className={
+          "flex h-full w-full justify-center items-center text-2xl text-center p-10 bg-matrix-normal rounded-3xl  border-[3px]  border-black drop-shadow-glow "
+        }
+        onClick={() => setEffect(true)}
+      >
         <div className="pointer-events-none">
-          🤝
-          <br /> ¿Preparado para trabajar juntos?
+          {effect ? (
+            <div
+              className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
+              role="status"
+            >
+              <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
+                Loading...
+              </span>
+            </div>
+          ) : (
+            <>
+              🤝
+              <br /> ¿Preparado para trabajar juntos?
+            </>
+          )}
         </div>
       </a>
     </motion.div>
