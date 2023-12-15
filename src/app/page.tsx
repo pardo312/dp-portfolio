@@ -9,10 +9,11 @@ export default function Home() {
   return (
     <main className="2xl:container 2xl:mx-auto ">
       <MainScreen />
-      <ContactButtons />
+      <ContactButtons isTitleContact={true} />
       <AboutMeText />
       <Companies />
       <Portfolio />
+      <ContactButtons isTitleContact={false} />
       <Footer/>
     </main>
   );

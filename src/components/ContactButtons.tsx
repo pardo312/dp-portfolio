@@ -18,13 +18,22 @@ const buttons = [
   },
 ];
 
-export function ContactButtons() {
+export function ContactButtons({
+  isTitleContact,
+}: {
+  isTitleContact: boolean;
+}) {
   return (
-    <div className="mb-[40vh] md:mb-0 md:mt-[-3rem] md:ml-[-2rem] flex relative gap-5 items-center justify-center">
-      {buttons.map((button, index) => (
+    <div
+      className={
+        "mb-[40vh] md:mb-0 md:mt-[-3rem] flex relative gap-10 items-center justify-center " +
+        (isTitleContact ? " md:ml-[-1rem]" : "")
+      }
+    >
+      {buttons.slice(0,isTitleContact?buttons.length:2).map((button, index) => (
         <motion.a
           key={"contact_button_" + index}
-          className="flex relative items-center justify-center h-14 w-14 rounded-lg border-[3px] border-matrix-light bg-transparent"
+          className="flex relative items-center justify-center h-14 w-14 rounded-lg border-[1px]  border-matrix-light bg-black drop-shadow-glow"
           href={button.link}
           target={button.target == null ? "_blank" : button.target}
           whileHover={{

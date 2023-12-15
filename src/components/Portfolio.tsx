@@ -26,7 +26,7 @@ export function Portfolio() {
         </div>
       </motion.div>
       <PortfolioBento seeAll={seeAll} setSeeAll={setSeeAll} />
-      {!seeAll ? <WorkTogetherCard seeAll={seeAll} /> : <></>}
+      {!seeAll ? <WorkTogetherCard seeAll={seeAll} /> : <div className="h-10 md:h-24"></div>}
     </>
   );
 }
