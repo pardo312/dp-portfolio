@@ -44,7 +44,7 @@ function Brief({
   isInfo: boolean;
 }) {
   const coloredBrief = brief.replace(
-    /#.*@/,
+    /#[^@]+@/g,
     (match) =>
       `<span style="color: black; font-weight: 900;">${match.substring(
         1,

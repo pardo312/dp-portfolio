@@ -20,6 +20,15 @@ export function IconCard({
   const [isHovering, setIsHovering] = useState(false);
   const [nextState, setPreviousState] = useState(false);
 
+  const coloredDescription = description.replace(
+    /#[^@]+@/g,
+    (match) =>
+      `<span style="color: black; font-weight: 900;">${match.substring(
+        1,
+        match.length - 1
+      )} </span>`
+  );
+
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setIsHovering(nextState);
@@ -67,7 +76,10 @@ export function IconCard({
                 ) : (
                   <></>
                 )}
-                <h1 className="lg:text-[1vw]  text-center">{description}</h1>
+                <div
+                  className="lg:text-[1vw] text-center"
+                  dangerouslySetInnerHTML={{ __html: coloredDescription }}
+                ></div>
               </div>
             ) : (
               <Image src={icon} width={70} height={70} alt="icon" />

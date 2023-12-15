@@ -8,12 +8,16 @@ import { CustomCursor } from "./Phone/CustomCursor";
 
 export function PcCard({
   title,
-  description,
+  icon,
   images,
+  brief,
+  url,
 }: {
   title: string;
+  icon: string;
   images: string[];
-  description: string;
+  brief: string;
+  url: string|undefined;
 }) {
   const [currentImage, setCurrentImage] = useState(0);
   const [nextImage, setNextImage] = useState(0);
@@ -82,9 +86,11 @@ export function PcCard({
               images={images}
               currentImage={currentImage}
               nextImage={nextImage}
+              brief={brief}
+              url={url}
             />
             {/**Bottom bar */}
-            <PcCardBottomBar title={title} />
+            <PcCardBottomBar title={title} icon={icon} />
           </div>
         </div>
       </motion.div>
@@ -99,12 +105,16 @@ function PcContent({
   images,
   currentImage,
   nextImage,
+  brief,
+  url,
 }: {
   showInfo: boolean;
   setShowInfo: any;
   images: string[];
   currentImage: number;
   nextImage: number;
+  brief: string;
+  url: string|undefined;
 }) {
   return (
     <div className="-translate-y-5 w-full h-full rounded-full flex flex-col relative">
@@ -117,13 +127,8 @@ function PcContent({
       <PcDetail
         showInfo={showInfo}
         setShowInfo={setShowInfo}
-        brief={
-          "Videojuego #action-rpg@ hecho en #48 horas@, usando la #mitologia Muisca@ como base."
-        }
-        url={"www.google.com"}
-        description={
-          ""
-        }
+        brief={brief}
+        url={url}
       />
     </div>
   );

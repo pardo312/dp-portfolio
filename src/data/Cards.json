@@ -1,6 +1,7 @@
 [
   {
     "title":"Menu Alchemy",
+    "icon": "/Images/Portfolio/menu-alchemy/menu-alchemy-logo.svg",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
     "type": "phone",
     "brief": "Start-up para crear #menus digitales modulares@ para restaurantes. ",
@@ -17,6 +18,9 @@
   {
     "title":"Wizards Nostalgia",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "icon": "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-logo.png",
+    "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
+    "brief":"Videojuego #action-rpg@ hecho en #48 horas@, usando la #mitologia Muisca@ como base.",
     "type": "pc",
     "images": [
       "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.png",
@@ -38,17 +42,19 @@
   },
   {
     "title":"Hachi",
+    "icon": "/Images/Portfolio/hachi/Hachi-Logo.png",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
     "type": "phone",
-    "brief": "Start-up para crear menus digitales modulares para restaurantes. ",
-    "description": "Permite cambiar en cualquier momento la informacion y apariencia del menu para proporcionar a los restaurantes una mayor elasticidad con sus menus sin necesidad de un progamador o mas costos de impresion fisica.",
-    "url": "https://www.menu-alchemy.com",
+    "brief": "#Marketplace@ para econtrar #veterinarios de calidad@ alrededor tuyo. ",
+    "description": "Start-up enfocada en #conectar@ a los #dueños de mascotas@ con los mejores #veterinarios@ de su zona. Permite #agendar@ citas, ver el #perfil@ de los veterinarios y  progamar el #domicilio@ de la mascota.",
+    "url": "https://play.google.com/store/apps/details?id=com.hachi.hachi",
     "images": [
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-0.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-1.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-2.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-3.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-4.png"
+      "/Images/Portfolio/hachi/Hachi-0.jpg",
+      "/Images/Portfolio/hachi/Hachi-1.jpg",
+      "/Images/Portfolio/hachi/Hachi-2.jpg",
+      "/Images/Portfolio/hachi/Hachi-3.jpg",
+      "/Images/Portfolio/hachi/Hachi-4.jpg",
+      "/Images/Portfolio/hachi/Hachi-5.jpg"
     ]
   },
   {
@@ -71,14 +77,16 @@
   },
   {
     "title":"Legalmatic",
+    "icon": "/Images/Portfolio/legalmatic/legalmatic-logo.svg",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "url":"https://legalmatic-webpage.vercel.app",
+    "brief": "Herramienta de #inteligencia artificial@ para generar #documentos legales@ rapidamente.",
     "type": "pc",
     "images": [
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.png"
+      "/Images/Portfolio/legalmatic/legalmatic-0.png",
+      "/Images/Portfolio/legalmatic/legalmatic-1.png",
+      "/Images/Portfolio/legalmatic/legalmatic-2.png",
+      "/Images/Portfolio/legalmatic/legalmatic-3.png"
     ]
   },
   {
@@ -101,28 +109,30 @@
   {
     "title":"Boom Away",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "icon": "/Images/Portfolio/boom-away/boom-away-logo.jpeg",
+    "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
+    "brief":"Videojuego #plataformas@. Sistemas de #autenticacion@ y #creacion/compartida de mundos online@",
     "type": "pc",
     "images": [
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.png"
+      "/Images/Portfolio/boom-away/boom-away-0.png",
+      "/Images/Portfolio/boom-away/boom-away-1.png",
+      "/Images/Portfolio/boom-away/boom-away-2.png"
     ]
   },
   {
     "title":"Puzzle",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
+    "icon":"/Images/Portfolio/puzzle/puzzle-logo.png",
+    "brief": "Videojuego #Match 3@ puzzle con #+100 niveles.@",
+    "description": "Desarrollado por la empresa #GetaClub@, participe en el desarrollo de #sistema networking de bajo nivel@ desde 0, #desarrollo de funcionalidades@ y #mantenimiento de la app@",
+    "url": "https://play.google.com/store/apps/details?id=com.getaclub.puzzle",
     "type": "phone",
-    "brief": "Start-up para crear menus digitales modulares para restaurantes. ",
-    "description": "Permite cambiar en cualquier momento la informacion y apariencia del menu para proporcionar a los restaurantes una mayor elasticidad con sus menus sin necesidad de un progamador o mas costos de impresion fisica.",
-    "url": "https://www.menu-alchemy.com",
     "images": [
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-0.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-1.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-2.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-3.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-4.png"
+      "/Images/Portfolio/puzzle/puzzle-0.jpg",
+      "/Images/Portfolio/puzzle/puzzle-1.jpg",
+      "/Images/Portfolio/puzzle/puzzle-2.jpg",
+      "/Images/Portfolio/puzzle/puzzle-3.jpg",
+      "/Images/Portfolio/puzzle/puzzle-4.jpg"
     ]
   },
   {
@@ -144,25 +154,29 @@
   {
     "title":"Shakespear in the metaverse",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "icon":  "/Images/Portfolio/sitm/SITM-logo.png",
+    "brief":"Experiencia en #VR(realiadad virtual) multijugador.@ Vive la #historia de hamlet@ en #primera persona@.",
     "type": "pc",
     "images": [
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.png"
+      "/Images/Portfolio/sitm/SITM-0.png",
+      "/Images/Portfolio/sitm/SITM-1.png",
+      "/Images/Portfolio/sitm/SITM-2.png",
+      "/Images/Portfolio/sitm/SITM-3.png"
     ]
   },
   {
     "title":"La reconstruccion",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "icon": "/Images/Portfolio/la-reconstruccion/la-reconstruccion-logo.png",
+    "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
+    "brief":"Videojuego #puzzle@. Retrata la situacion #Colombiana@ de #ocultar masacres@ por parte del #Estado@",
     "type": "pc",
     "images": [
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.png"
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-0.png",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-1.png",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-2.png",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-3.png",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-4.png"
     ]
   },
   {

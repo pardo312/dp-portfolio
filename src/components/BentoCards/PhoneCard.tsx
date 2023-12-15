@@ -14,12 +14,14 @@ export const cormorantUpright = Cormorant_Upright({
 
 export function PhoneCard({
   title,
+  icon,
   brief,
   url,
   description,
   images,
 }: {
   title: string;
+  icon: string;
   brief: string;
   url: string;
   description: string;
@@ -73,7 +75,6 @@ export function PhoneCard({
           scale: 1,
           transition: { duration: 1 },
         }}
-        
         className={
           "col-span-2 row-span-4 h-full w-full " +
           (showInfo ? "cursor-default" : "cursor-none")
@@ -97,7 +98,7 @@ export function PhoneCard({
               showInfo={showInfo}
               setShowInfo={setShowInfo}
             />
-            <PhoneCardBottomBar title={title} />
+            <PhoneCardBottomBar title={title} icon={icon} />
           </div>
         </div>
       </motion.div>

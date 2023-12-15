@@ -13,13 +13,11 @@ export function PcDetail({
   setShowInfo,
   brief,
   url,
-  description,
 }: {
   showInfo: boolean;
   setShowInfo: any;
   brief: string;
-  url: string;
-  description: string;
+  url: string|undefined;
 }) {
   return (
     <motion.div
@@ -33,7 +31,6 @@ export function PcDetail({
     >
       <Brief brief={brief} url={url} isInfo={showInfo} />
       <CloseButton setShowInfo={setShowInfo} />
-      {/* <Description description={description} /> */}
     </motion.div>
   );
 }
@@ -44,7 +41,7 @@ function Brief({
   isInfo,
 }: {
   brief: string;
-  url: string;
+  url: string|undefined;
   isInfo: boolean;
 }) {
   const coloredBrief = brief.replace(
@@ -59,14 +56,18 @@ function Brief({
     <div className="absolute top-2 right-0 lg:right-2  text-center w-[50%] h-[50%] ">
       <div className="text-xl lg:text-2xl" dangerouslySetInnerHTML={{ __html: coloredBrief }}></div>
       <div className="flex justify-center items-center w-full my-2 h-12">
-        <a
+        {
+          
+          url != undefined?
+        (<a
           style={{ pointerEvents: isInfo ? "auto" : "none" }}
           href={url}
           target="_blank"
           className="w-52 h-full rounded-3xl flex justify-center items-center bg-black text-matrix-light text-3xl"
         >
           Visitar
-        </a>
+        </a>):(<></>)
+}
       </div>
     </div>
   );
@@ -86,22 +87,6 @@ function CloseButton({ setShowInfo }: { setShowInfo: any }) {
           alt="Close btn"
         />
       </button>
-    </div>
-  );
-}
-
-function Description({ description }: { description: string }) {
-  const coloredDescription = description.replace(
-    /#[^@]+@/g,
-    (match) =>
-      `<span style="color: black; font-weight: 900;">${match.substring(
-        1,
-        match.length - 1
-      )} </span>`
-  );
-  return (
-    <div className="absolute bottom-0 text-center w-[90%] h-[45%]">
-      <div dangerouslySetInnerHTML={{ __html: coloredDescription }}></div>
     </div>
   );
 }

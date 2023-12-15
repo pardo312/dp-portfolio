@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_12" transform="matrix(1.45729 0 0 1.45729 256.894 364.283)">
+   <svg data-background-color="#ffffff" height="171" id="svg_2" preserveAspectRatio="xMidYMid meet" viewBox="0 0 67 68" width="67" x="-177.086701" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="-301.085473">
+    <g id="svg_3" transform="matrix(1,0,0,1,0.2400000000000091,0.219750408334221)">
+     <svg height="67.560499" id="svg_28" viewBox="0 0 67.52 67.56049918333154" width="67.52">
+      <mask id="svg_31">
+       <svg height="67.560499" id="svg_51" viewBox="0 0 67.52 67.56049918333154" width="67.52">
+        <svg height="67.560499" id="svg_71" viewBox="0 0 67.52 67.56049918333154" width="67.52">
+         <svg height="67.560499" id="svg_90" viewBox="0 0 67.52 67.56049918333154" width="67.52">
+          <svg height="67.560499" id="svg_108" viewBox="0 0 67.39928593432114 81.54665773535793" width="67.52">
+           <svg height="81.546658" id="svg_125" viewBox="0 0 67.3987123854795 81.54665773535793" width="70.398712">
+            <svg class="icon-icon-0" data-fill-palette-color="accent" height="81.546658" id="svg_141" viewBox="9.638 3.247 80.72399999999999 93.507" width="67.398712" x="0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0">
+             <g fill="white" id="svg_142">
+              <g fill="white" id="svg_153">
+               <polygon fill="white" id="svg_154" points="36.703,11.011 9.638,26.636 9.638,38.757 36.703,23.131 63.767,38.757 63.767,26.636   "/>
+              </g>
+              <g fill="white" id="svg_151">
+               <polygon fill="white" id="svg_152" points="63.298,89.092 36.233,73.467 36.233,61.348 63.298,76.973 90.362,61.348 90.362,73.467   "/>
+              </g>
+              <g fill="white" id="svg_149">
+               <polygon fill="white" id="svg_150" points="9.638,42.012 36.703,26.386 47.198,32.446 20.134,48.072 20.134,79.324 9.638,73.264   "/>
+              </g>
+              <g fill="white" id="svg_147">
+               <polygon fill="white" id="svg_148" points="77.083,18.872 50.018,3.247 39.522,9.307 66.586,24.932 66.586,56.184 77.083,50.124   "/>
+              </g>
+              <g fill="white" id="svg_145">
+               <polygon fill="white" id="svg_146" points="23.01,81.127 23.011,49.876 33.507,43.816 33.507,75.068 60.571,90.693 50.075,96.754   "/>
+              </g>
+              <g fill="white" id="svg_143">
+               <polygon fill="white" id="svg_144" points="90.362,58.092 90.362,26.84 79.866,20.78 79.866,52.031 52.802,67.658 63.298,73.719   "/>
+              </g>
+             </g>
+            </svg>
+           </svg>
+          </svg>
+         </svg>
+        </svg>
+        <defs>
+         <mask/>
+        </defs>
+       </svg>
+      </mask>
+      <linearGradient id="svg_30" x1="0" x2="1" y1="0.578" y2="0.595">
+       <stop offset="0" stop-color="#6ee2f5"/>
+      </linearGradient>
+      <rect data-fill-palette-color="accent" fill="url(#svg_30)" height="67.560499" id="svg_29" mask="url(#svg_31)" width="67.52"/>
+     </svg>
+    </g>
+   </svg>
+  </g>
+ </g>
+</svg>

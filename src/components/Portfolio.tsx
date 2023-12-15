@@ -26,7 +26,11 @@ export function Portfolio() {
         </div>
       </motion.div>
       <PortfolioBento seeAll={seeAll} setSeeAll={setSeeAll} />
-      {!seeAll ? <WorkTogetherCard seeAll={seeAll} /> : <div className="h-10 md:h-24"></div>}
+      {!seeAll ? (
+        <WorkTogetherCard seeAll={seeAll} />
+      ) : (
+        <div className="h-10 md:h-24"></div>
+      )}
     </>
   );
 }
@@ -61,6 +65,7 @@ function PortfolioBento({
                 <PhoneCard
                   key={"bento_card_" + index}
                   title={item.title}
+                  icon={item.icon || "/Images/TechBubbleLogos/Unity.svg"}
                   images={item.images || []}
                   brief={item.brief || "Pending brief"}
                   url={item.url || "https://www.google.com"}
@@ -72,8 +77,10 @@ function PortfolioBento({
                 <PcCard
                   key={"bento_card_" + index}
                   title={item.title}
+                  icon={item.icon || "/Images/TechBubbleLogos/Unity.svg"}
                   images={item.images || []}
-                  description={item.description || "Pending description"}
+                  brief={item.brief || "Pending brief"}
+                  url={item.url || undefined}
                 />
               );
             case "cta":
