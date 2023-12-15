@@ -38,10 +38,10 @@ function PortfolioBento({
   setSeeAll: any;
 }) {
   return (
-    <div className="flex flex-col h-fit w-full">
+    <div className="flex flex-col h-fit w-full ">
       <div
-        className="w-full h-full grid gird-cols-1 md:grid-cols-4 lg:grid-cols-6 auto-rows-[9rem] gap-10 py-6 px-10 md:px-32 lg:px-32 my-10"
-        style={{ zoom: 0.8 }}
+        className=" w-full h-full grid gird-cols-1 md:grid-cols-4 lg:grid-cols-6 auto-rows-[9rem] gap-10 py-6 px-10 md:px-32 lg:px-32 my-10"
+        style={{ zoom: 0.75 }}
       >
         {cards.slice(0, seeAll ? cards.length : 9).map((item, index) => {
           switch (item.type) {
@@ -49,9 +49,10 @@ function PortfolioBento({
               return (
                 <IconCard
                   key={"bento_card_" + index}
-                  colSize={item.colSize}
-                  imageSrc={item.icon}
-                  description={"Pending description"}
+                  icon={item.icon}
+                  colSize={item.colSize || 1}
+                  image={item.image}
+                  description={item.description || "Pending description"}
                 />
               );
             case "phone":
@@ -60,6 +61,9 @@ function PortfolioBento({
                   key={"bento_card_" + index}
                   title={item.title}
                   images={item.images || []}
+                  brief={item.brief || "Pending brief"}
+                  url={item.url || "https://www.google.com"}
+                  description={item.description || "Pending description"}
                 />
               );
             case "pc":
@@ -68,10 +72,13 @@ function PortfolioBento({
                   key={"bento_card_" + index}
                   title={item.title}
                   images={item.images || []}
+                  description={item.description || "Pending description"}
                 />
               );
             case "cta":
-              return <WorkTogetherCard key={"bento_card_" + index} seeAll={true} />;
+              return (
+                <WorkTogetherCard key={"bento_card_" + index} seeAll={true} />
+              );
             default:
               break;
           }
@@ -86,5 +93,3 @@ function PortfolioBento({
     </div>
   );
 }
-
-

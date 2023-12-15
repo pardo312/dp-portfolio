@@ -4,13 +4,15 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export function IconCard({
-  imageSrc = "/Images/TechBubbleLogos/Unity.svg",
+  icon = "/Images/TechBubbleLogos/Unity.svg",
   description,
+  image,
   colSize = 1,
 }: {
-  imageSrc: string | undefined;
+  icon: string | undefined;
   description: string;
-  colSize: number | undefined;
+  image: string | undefined;
+  colSize: number;
 }) {
   const [isHovering, setIsHovering] = useState(false);
   const [previousState, setPreviousState] = useState(false);
@@ -39,17 +41,27 @@ export function IconCard({
       onMouseEnter={() => setPreviousState(true)}
       onMouseLeave={() => setPreviousState(false)}
     >
-      <div className="rounded-3xl  w-full h-full bg-black-ligth hover:bg-matrix-normal hover:text-matrix-dark transition-all duration-500">
+      <div className="rounded-3xl w-full h-full bg-black-ligth hover:bg-matrix-normal hover:text-matrix-dark transition-all duration-500">
         <div
           className="flex h-full w-full justify-center items-center transition-opacity duration-500 "
           style={{ opacity: previousState === isHovering ? 1 : 0 }}
         >
           {isHovering ? (
-            <div>
-              <h1 className="text-2xl text-center">{description}</h1>
+            <div className="flex justify-center items-center mx-6">
+              {image != undefined ? (
+                <img
+                  src={image}
+                  alt="Throphy"
+                  className="w-[60%] h-auto rounded-xl mr-4"
+                  style={{ height: "auto" }}
+                />
+              ) : (
+                <></>
+              )}
+              <h1 className="lg:text-[1vw]  text-center">{description}</h1>
             </div>
           ) : (
-            <Image src={imageSrc} width={70} height={70} alt="PhoneFrame" />
+            <Image src={icon} width={70} height={70} alt="icon" />
           )}
         </div>
       </div>

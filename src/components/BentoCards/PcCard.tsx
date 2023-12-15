@@ -3,7 +3,15 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-export function PcCard({ title, images }: { title: string; images: string[] }) {
+export function PcCard({
+  title,
+  description,
+  images,
+}: {
+  title: string;
+  images: string[];
+  description: string;
+}) {
   const [currentImage, setCurrentImage] = useState(0);
   const [nextImage, setNextImage] = useState(0);
   const [isHovering, setIsHovering] = useState(false);
@@ -82,6 +90,7 @@ function PcMockup({
     <div className="-translate-y-5 w-full h-full rounded-full flex flex-col relative">
       <div className="flex justify-center items-center w-full h-full">
         <img
+          loading="lazy"
           width={314}
           height={150}
           src="/Images/Portfolio/Frames/MacFrame.png"
@@ -89,11 +98,12 @@ function PcMockup({
           className="z-10  pointer-events-none"
         />
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="bg-black w-[250px] h-[165px] max-w-[80%] min-h-[65%] lg:min-h-[80%] lg:max-w-[21vw]" />
+          <div className="bg-black w-[250px] h-[161px] max-w-[80%] min-h-[65%] lg:min-h-[80%] lg:max-w-[21vw]" />
         </div>
 
         <div className="absolute mb-3 inset-0 flex items-center justify-center">
           <img
+            loading="lazy"
             src={images[currentImage]}
             className="w-[15rem] max-w-[80%] lg:max-w-[80%] h-auto min-h-[65%] lg:min-h-[80%] transition-opacity duration-1000"
             style={{ opacity: nextImage === currentImage ? 1 : 0 }}

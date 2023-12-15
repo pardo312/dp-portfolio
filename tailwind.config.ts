@@ -8,6 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
+
       dropShadow: {
         glow: [
           "0 0px 15px rgba(255,255, 255, 0.35)",
@@ -21,6 +22,7 @@ const config: Config = {
       },
       animation: {
         "infinite-scroll": "infinite-scroll 15s linear infinite",
+        'spin-slow': 'spin 5s linear infinite',
       },
       keyframes: {
         "infinite-scroll": {

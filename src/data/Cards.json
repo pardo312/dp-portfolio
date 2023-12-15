@@ -3,6 +3,9 @@
     "title":"Menu Alchemy",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
     "type": "phone",
+    "brief": "Start-up para crear #menus digitales modulares@ para restaurantes. ",
+    "description": "Permite #cambiar@ en cualquier momento la #informacion y apariencia@ del menu para proporcionar a los restaurantes una mayor elasticidad con sus #menus sin@ necesidad de un #progamador@ o mas #costos de impresion@ fisica.",
+    "url": "https://www.menu-alchemy.com",
     "images": [
       "/Images/Portfolio/menu-alchemy/menu-alchemy-0.png",
       "/Images/Portfolio/menu-alchemy/menu-alchemy-1.png",
@@ -28,12 +31,17 @@
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-1",
     "type": "icon",
     "colSize": 2,
-    "icon": "/Images/Portfolio/Icons/Thropy.svg"
+    "icon": "/Images/Portfolio/Icons/Thropy.svg",
+    "description": "Ganador concurso TIC, Los Andes 2019",
+    "image": "/Images/Portfolio/Award.png"
   },
   {
     "title":"Hachi",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
     "type": "phone",
+    "brief": "Start-up para crear menus digitales modulares para restaurantes. ",
+    "description": "Permite cambiar en cualquier momento la informacion y apariencia del menu para proporcionar a los restaurantes una mayor elasticidad con sus menus sin necesidad de un progamador o mas costos de impresion fisica.",
+    "url": "https://www.menu-alchemy.com",
     "images": [
       "/Images/Portfolio/menu-alchemy/menu-alchemy-0.png",
       "/Images/Portfolio/menu-alchemy/menu-alchemy-1.png",
@@ -47,14 +55,16 @@
     "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     "type": "icon",
     "colSize": 1,
-    "icon": "/Images/Portfolio/Icons/Git.svg"
+    "icon": "/Images/Portfolio/Icons/Git.svg",
+    "description": "Senior git dev con experiencia de trunk based dev +6 años"
   },
   {
     "title":"Andes",
     "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     "type": "icon",
     "colSize": 1,
-    "icon": "/Images/Portfolio/Icons/Andes.png"
+    "icon": "/Images/Portfolio/Icons/Andes.png",
+    "description": "Ingeniero de sistemas graduado de la Universidad de los Andes"
   },
   {
     "title":"Legalmatic",
@@ -73,14 +83,16 @@
     "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     "type": "icon",
     "colSize": 1,
-    "icon": "/Images/Portfolio/Icons/HDV.svg"
+    "icon": "/Images/Portfolio/Icons/HDV.svg",
+    "description": "Mi Curriculum vitae/hoja de vida, descargalo en formato PDF"
   },
   {
     "title":"Jiufen Games",
     "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     "type": "icon",
     "colSize": 1,
-    "icon": "/Images/Portfolio/Icons/JiufenGames.png"
+    "icon": "/Images/Portfolio/Icons/JiufenGames.png",
+    "description": "Creador de pagina de Instagram de tips para progamar en c# y Unity."
   },
   {
     "title":"Boom Away",
@@ -98,6 +110,9 @@
     "title":"Puzzle",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
     "type": "phone",
+    "brief": "Start-up para crear menus digitales modulares para restaurantes. ",
+    "description": "Permite cambiar en cualquier momento la informacion y apariencia del menu para proporcionar a los restaurantes una mayor elasticidad con sus menus sin necesidad de un progamador o mas costos de impresion fisica.",
+    "url": "https://www.menu-alchemy.com",
     "images": [
       "/Images/Portfolio/menu-alchemy/menu-alchemy-0.png",
       "/Images/Portfolio/menu-alchemy/menu-alchemy-1.png",
@@ -111,14 +126,16 @@
     "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     "type": "icon",
     "colSize": 1,
-    "icon": "/Images/Portfolio/Icons/Experience.svg"
+    "icon": "/Images/Portfolio/Icons/Experience.svg",
+    "description": "4+ años de experiencia en desarrollo de software"
   },
   {
     "title":"Vim",
     "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     "type": "icon",
     "colSize": 1,
-    "icon": "/Images/Portfolio/Icons/Vim.svg"
+    "icon": "/Images/Portfolio/Icons/Vim.svg",
+    "description": "Usuario de VIM, macros de usuario avazando, con experiencia de +3 años"
   },
   {
     "title":"Shakespear in the metaverse",

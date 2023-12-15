@@ -7,7 +7,7 @@ import { Footer } from "../components/Footer";
 
 export default function Home() {
   return (
-    <main className="container mx-auto">
+    <main className="2xl:container 2xl:mx-auto ">
       <MainScreen />
       <ContactButtons />
       <AboutMeText />
