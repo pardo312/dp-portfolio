@@ -21,7 +21,7 @@ export function WorkTogetherCard({ seeAll }: { seeAll: boolean }) {
         seeAll ? "" : "h-32 mx-6 md:mx-52 lg:mx-72 my-20"
       }`}
     >
-      <a href="mailto:pardod312@gmail.com"  className="flex h-full w-full justify-center items-center text-2xl text-center p-10 bg-matrix-normal rounded-3xl  drop-shadow-glow">
+      <a href="mailto:pardod312@gmail.com"  className="flex h-full w-full justify-center items-center text-2xl text-center p-10 bg-matrix-normal rounded-3xl  border-[3px]  border-black drop-shadow-glow">
         <div className="pointer-events-none">
           🤝
           <br /> ¿Preparado para trabajar juntos?

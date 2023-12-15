@@ -33,7 +33,7 @@ export function ContactButtons({
       {buttons.slice(0,isTitleContact?buttons.length:2).map((button, index) => (
         <motion.a
           key={"contact_button_" + index}
-          className="flex relative items-center justify-center h-14 w-14 rounded-lg border-[1px]  border-matrix-light bg-black drop-shadow-glow"
+          className="flex relative items-center justify-center h-14 w-14 rounded-lg border-[3px]  border-black bg-matrix-normal drop-shadow-glow"
           href={button.link}
           target={button.target == null ? "_blank" : button.target}
           whileHover={{
