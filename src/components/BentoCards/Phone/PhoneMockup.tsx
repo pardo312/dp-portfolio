@@ -21,7 +21,6 @@ export function PhoneMockup({
       className={"flex justify-center items-center w-full h-full"}
     >
       <img
-        loading="lazy"
         width={220}
         height={450}
         src="/Images/Portfolio/Frames/IphoneFrame.webp"
@@ -32,7 +31,6 @@ export function PhoneMockup({
       </div>
       <div className=" absolute inset-0 flex items-center justify-center">
         <img
-          loading="lazy"
           src={images[currentImage]}
           className="z-[5] w-[90%] max-w-[12.1rem] h-auto rounded-[5%] transition-opacity duration-1000 pointer-events-none"
           style={{ opacity: nextImage === currentImage ? 1 : 0 }}

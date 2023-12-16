@@ -25,7 +25,6 @@ export function PcMockup({
       className="flex justify-center items-center w-full h-full"
     >
       <img
-        loading="lazy"
         width={314}
         height={150}
         src="/Images/Portfolio/Frames/MacFrame.webp"
@@ -38,7 +37,6 @@ export function PcMockup({
 
       <div className="absolute mb-3 inset-0 flex items-center justify-center">
         <img
-          loading="lazy"
           src={images[currentImage]}
           className="w-[15rem] max-w-[80%] lg:max-w-[80%] h-auto min-h-[65%] lg:min-h-[80%] transition-opacity duration-1000"
           style={{ opacity: nextImage === currentImage ? 1 : 0 }}
