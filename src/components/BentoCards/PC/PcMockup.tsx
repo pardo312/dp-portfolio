@@ -28,7 +28,7 @@ export function PcMockup({
         loading="lazy"
         width={314}
         height={150}
-        src="/Images/Portfolio/Frames/MacFrame.png"
+        src="/Images/Portfolio/Frames/MacFrame.webp"
         alt="Frame Image"
         className="z-10  pointer-events-none"
       />

@@ -8,26 +8,26 @@
     "description": "Permite #cambiar@ en cualquier momento la #informacion y apariencia@ del menu para proporcionar a los restaurantes una mayor elasticidad con sus #menus sin@ necesidad de un #progamador@ o mas #costos de impresion@ fisica.",
     "url": "https://www.menu-alchemy.com",
     "images": [
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-0.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-1.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-2.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-3.png",
-      "/Images/Portfolio/menu-alchemy/menu-alchemy-4.png"
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-0.webp",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-1.webp",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-2.webp",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-3.webp",
+      "/Images/Portfolio/menu-alchemy/menu-alchemy-4.webp"
     ]
   },
   {
     "title":"Wizards Nostalgia",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
-    "icon": "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-logo.png",
+    "icon": "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-logo.webp",
     "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
     "brief":"Videojuego #action-rpg@ hecho en #48 horas@, usando la #mitologia Muisca@ como base.",
     "type": "pc",
     "images": [
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.png",
-      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.png"
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.webp",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.webp",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.webp",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.webp",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.webp"
     ]
   },
   {
@@ -37,24 +37,24 @@
     "colSize": 2,
     "icon": "/Images/Portfolio/Icons/Thropy.svg",
     "description": "Ganador concurso TIC, Los Andes 2019",
-    "image": "/Images/Portfolio/Award.png",
+    "image": "/Images/Portfolio/Award.webp",
     "url":"https://waf.virtual.uniandes.edu.co/es/inicio/noticias/item/1162-ganadores-del-concurso-de-innovacion-con-tic-2019"
   },
   {
     "title":"Hachi",
-    "icon": "/Images/Portfolio/hachi/Hachi-Logo.png",
+    "icon": "/Images/Portfolio/hachi/Hachi-Logo.webp",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
     "type": "phone",
     "brief": "#Marketplace@ para econtrar #veterinarios de calidad@ alrededor tuyo. ",
     "description": "Start-up enfocada en #conectar@ a los #dueños de mascotas@ con los mejores #veterinarios@ de su zona. Permite #agendar@ citas, ver el #perfil@ de los veterinarios y  progamar el #domicilio@ de la mascota.",
     "url": "https://play.google.com/store/apps/details?id=com.hachi.hachi",
     "images": [
-      "/Images/Portfolio/hachi/Hachi-0.jpg",
-      "/Images/Portfolio/hachi/Hachi-1.jpg",
-      "/Images/Portfolio/hachi/Hachi-2.jpg",
-      "/Images/Portfolio/hachi/Hachi-3.jpg",
-      "/Images/Portfolio/hachi/Hachi-4.jpg",
-      "/Images/Portfolio/hachi/Hachi-5.jpg"
+      "/Images/Portfolio/hachi/Hachi-0.webp",
+      "/Images/Portfolio/hachi/Hachi-1.webp",
+      "/Images/Portfolio/hachi/Hachi-2.webp",
+      "/Images/Portfolio/hachi/Hachi-3.webp",
+      "/Images/Portfolio/hachi/Hachi-4.webp",
+      "/Images/Portfolio/hachi/Hachi-5.webp"
     ]
   },
   {
@@ -71,7 +71,7 @@
     "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     "type": "icon",
     "colSize": 1,
-    "icon": "/Images/Portfolio/Icons/Andes.png",
+    "icon": "/Images/Portfolio/Icons/Andes.webp",
     "description": "Ingeniero de sistemas graduado de la Universidad de los Andes",
     "url":"https://drive.google.com/file/d/1cFTA19FGz2PoNiDzS1rY2TMkv-rEa_sP/view?usp=sharing"
   },
@@ -83,10 +83,10 @@
     "brief": "Herramienta de #inteligencia artificial@ para generar #documentos legales@ rapidamente.",
     "type": "pc",
     "images": [
-      "/Images/Portfolio/legalmatic/legalmatic-0.png",
-      "/Images/Portfolio/legalmatic/legalmatic-1.png",
-      "/Images/Portfolio/legalmatic/legalmatic-2.png",
-      "/Images/Portfolio/legalmatic/legalmatic-3.png"
+      "/Images/Portfolio/legalmatic/legalmatic-0.webp",
+      "/Images/Portfolio/legalmatic/legalmatic-1.webp",
+      "/Images/Portfolio/legalmatic/legalmatic-2.webp",
+      "/Images/Portfolio/legalmatic/legalmatic-3.webp"
     ]
   },
   {
@@ -102,37 +102,37 @@
     "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
     "type": "icon",
     "colSize": 1,
-    "icon": "/Images/Portfolio/Icons/JiufenGames.png",
+    "icon": "/Images/Portfolio/Icons/JiufenGames.webp",
     "description": "Creador de pagina de Instagram de tips para progamar en c# y Unity.",
     "url":"https://www.instagram.com/jiufengames/"
   },
   {
     "title":"Boom Away",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
-    "icon": "/Images/Portfolio/boom-away/boom-away-logo.jpeg",
+    "icon": "/Images/Portfolio/boom-away/boom-away-logo.webp",
     "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
     "brief":"Videojuego #plataformas@. Sistemas de #autenticacion@ y #creacion/compartida de mundos online@",
     "type": "pc",
     "images": [
-      "/Images/Portfolio/boom-away/boom-away-0.png",
-      "/Images/Portfolio/boom-away/boom-away-1.png",
-      "/Images/Portfolio/boom-away/boom-away-2.png"
+      "/Images/Portfolio/boom-away/boom-away-0.webp",
+      "/Images/Portfolio/boom-away/boom-away-1.webp",
+      "/Images/Portfolio/boom-away/boom-away-2.webp"
     ]
   },
   {
     "title":"Puzzle",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-4",
-    "icon":"/Images/Portfolio/puzzle/puzzle-logo.png",
+    "icon":"/Images/Portfolio/puzzle/puzzle-logo.webp",
     "brief": "Videojuego #Match 3@ puzzle con #+100 niveles.@",
     "description": "Desarrollado por la empresa #GetaClub@, participe en el desarrollo de #sistema networking de bajo nivel@ desde 0, #desarrollo de funcionalidades@ y #mantenimiento de la app@",
     "url": "https://play.google.com/store/apps/details?id=com.getaclub.puzzle",
     "type": "phone",
     "images": [
-      "/Images/Portfolio/puzzle/puzzle-0.jpg",
-      "/Images/Portfolio/puzzle/puzzle-1.jpg",
-      "/Images/Portfolio/puzzle/puzzle-2.jpg",
-      "/Images/Portfolio/puzzle/puzzle-3.jpg",
-      "/Images/Portfolio/puzzle/puzzle-4.jpg"
+      "/Images/Portfolio/puzzle/puzzle-0.webp",
+      "/Images/Portfolio/puzzle/puzzle-1.webp",
+      "/Images/Portfolio/puzzle/puzzle-2.webp",
+      "/Images/Portfolio/puzzle/puzzle-3.webp",
+      "/Images/Portfolio/puzzle/puzzle-4.webp"
     ]
   },
   {
@@ -154,29 +154,29 @@
   {
     "title":"Shakespear in the metaverse",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
-    "icon":  "/Images/Portfolio/sitm/SITM-logo.png",
+    "icon":  "/Images/Portfolio/sitm/SITM-logo.webp",
     "brief":"Experiencia en #VR(realiadad virtual) multijugador.@ Vive la #historia de hamlet@ en #primera persona@.",
     "type": "pc",
     "images": [
-      "/Images/Portfolio/sitm/SITM-0.png",
-      "/Images/Portfolio/sitm/SITM-1.png",
-      "/Images/Portfolio/sitm/SITM-2.png",
-      "/Images/Portfolio/sitm/SITM-3.png"
+      "/Images/Portfolio/sitm/SITM-0.webp",
+      "/Images/Portfolio/sitm/SITM-1.webp",
+      "/Images/Portfolio/sitm/SITM-2.webp",
+      "/Images/Portfolio/sitm/SITM-3.webp"
     ]
   },
   {
     "title":"La reconstruccion",
     "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
-    "icon": "/Images/Portfolio/la-reconstruccion/la-reconstruccion-logo.png",
+    "icon": "/Images/Portfolio/la-reconstruccion/la-reconstruccion-logo.webp",
     "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
     "brief":"Videojuego #puzzle@. Retrata la situacion #Colombiana@ de #ocultar masacres@ por parte del #Estado@",
     "type": "pc",
     "images": [
-      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-0.png",
-      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-1.png",
-      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-2.png",
-      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-3.png",
-      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-4.png"
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-0.webp",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-1.webp",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-2.webp",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-3.webp",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-4.webp"
     ]
   },
   {

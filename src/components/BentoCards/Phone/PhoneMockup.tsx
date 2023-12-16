@@ -24,7 +24,7 @@ export function PhoneMockup({
         loading="lazy"
         width={220}
         height={450}
-        src="/Images/Portfolio/Frames/IphoneFrame.png"
+        src="/Images/Portfolio/Frames/IphoneFrame.webp"
         alt="Frame Image"
         className="z-10 pointer-events-none " />
       <div className="absolute inset-0 flex items-center justify-center">
