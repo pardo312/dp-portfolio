@@ -1,9 +1,12 @@
 "use client";
+import { LocaleDataContext } from "@/context/LocaleContext";
+import { LocaleEnum } from "@/context/LocaleEnum";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 
 export function WorkTogetherCard({ seeAll }: { seeAll: boolean }) {
   const [effect, setEffect] = useState(false);
+  let localeData = useContext(LocaleDataContext);
   useEffect(() => {
     let intervalId: any;
 
@@ -55,10 +58,15 @@ export function WorkTogetherCard({ seeAll }: { seeAll: boolean }) {
                 Loading...
               </span>
             </div>
-          ) : (
+          ) : localeData.locale == LocaleEnum.ES ? (
             <>
               🤝
               <br /> ¿Preparado para trabajar juntos?
+            </>
+          ) : (
+            <>
+              🤝
+              <br /> Ready to work together?
             </>
           )}
         </div>

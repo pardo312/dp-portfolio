@@ -1,6 +1,9 @@
 "use client";
+import { LocaleDataContext } from "@/context/LocaleContext";
+import { LocaleEnum } from "@/context/LocaleEnum";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useContext } from "react";
 
 export const things = [
   "GetaClub",
@@ -18,6 +21,7 @@ export const things = [
 ];
 
 export default function Companies() {
+  let localeData = useContext(LocaleDataContext);
   return (
     <div
       className={
@@ -30,24 +34,36 @@ export default function Companies() {
         transition={{ duration: 1 }}
         className={"flex items-center "}
       >
-        <div className="leading-tight text-matrix-light ">
-          Estoy orgulloso de haber
-          <span className="text-matrix-normal"> colaborado</span> con
-          <span className="text-matrix-normal"> increibles</span> compañias
-          como:
-        </div>
+        {localeData.locale == LocaleEnum.ES ? (
+          <div className="leading-tight text-matrix-light ">
+            Estoy orgulloso de haber
+            <span className="text-matrix-normal"> colaborado</span> con
+            <span className="text-matrix-normal"> increibles</span> compañias
+            como:
+          </div>
+        ) : (
+          <div className="leading-tight text-matrix-light">
+            I am proud to have
+            <span className="text-matrix-normal"> collaborated</span> with
+            <span className="text-matrix-normal"> incredible</span> companies
+            such as:
+          </div>
+        )}
       </motion.div>
 
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 1, delay: .5 }}
+        transition={{ duration: 1, delay: 0.5 }}
         className={" w-full max-w-[100rem] h-44 overflow-hidden xl:px-44 "}
       >
         <div className="flex  w-full h-full items-center overflow-hidden space-x-16 [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] ">
           <div className="flex  space-x-16   animate animate-infinite-scroll">
             {things.map((thing, index) => (
-              <div key={"thing_" + index} className="flex flex-col w-32 item-center justify-center ">
+              <div
+                key={"thing_" + index}
+                className="flex flex-col w-32 item-center justify-center "
+              >
                 <Image
                   src={"/Images/Companies/" + thing + ".svg"}
                   width={250}

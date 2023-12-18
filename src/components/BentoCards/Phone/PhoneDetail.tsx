@@ -96,7 +96,7 @@ function Description({ description }: { description: string }) {
       )} </span>`
   );
   return (
-    <div className="absolute bottom-0 text-center w-[90%] h-[45%]">
+    <div className="absolute bottom-0 text-center w-[100%] h-[45%]">
       <div dangerouslySetInnerHTML={{ __html: coloredDescription }}></div>
     </div>
   );
