@@ -93,6 +93,7 @@ function PortfolioBento({
                     brief={item.brief || "Pending brief"}
                     url={item.url || "https://www.google.com"}
                     description={item.description || "Pending description"}
+                    techIcons={item.techIcons || []}
                   />
                 );
               case "pc":
@@ -104,6 +105,7 @@ function PortfolioBento({
                     images={item.images || []}
                     brief={item.brief || "Pending brief"}
                     url={item.url || undefined}
+                    techIcons={item.techIcons || []}
                   />
                 );
               case "cta":

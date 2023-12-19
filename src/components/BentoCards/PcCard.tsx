@@ -9,15 +9,17 @@ import { CustomCursor } from "./Phone/CustomCursor";
 export function PcCard({
   title,
   icon,
+  techIcons,
   images,
   brief,
   url,
 }: {
   title: string;
   icon: string;
+  techIcons: string[];
   images: string[];
   brief: string;
-  url: string|undefined;
+  url: string | undefined;
 }) {
   const [currentImage, setCurrentImage] = useState(0);
   const [nextImage, setNextImage] = useState(0);
@@ -71,8 +73,8 @@ export function PcCard({
           "rounded-3xl bg-black-ligth col-span-2 row-span-2 " +
           (showInfo ? "cursor-default" : "cursor-none")
         }
-        onMouseEnter={() => setIsHovering(true)}
-        onMouseLeave={() => setIsHovering(false)}
+        onMouseOver={() => setIsHovering(true)}
+        onMouseOut={() => {setIsHovering(false);setShowInfo(false);}}
         onClick={() => {
           if (!showInfo) setShowInfo(true);
         }}
@@ -90,7 +92,7 @@ export function PcCard({
               url={url}
             />
             {/**Bottom bar */}
-            <PcCardBottomBar title={title} icon={icon} />
+            <PcCardBottomBar title={title} icon={icon} techIcons={techIcons} />
           </div>
         </div>
       </motion.div>
@@ -114,7 +116,7 @@ function PcContent({
   currentImage: number;
   nextImage: number;
   brief: string;
-  url: string|undefined;
+  url: string | undefined;
 }) {
   return (
     <div className="-translate-y-5 w-full h-full rounded-full flex flex-col relative">

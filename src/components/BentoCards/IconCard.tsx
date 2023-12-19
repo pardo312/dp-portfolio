@@ -82,7 +82,7 @@ export function IconCard({
                 ></div>
               </div>
             ) : (
-              <Image src={icon} width={70} height={70} alt="icon" />
+              <Image src={icon} width={70} height={70} alt="icon" className="w-20"/>
             )}
           </a>
         </div>

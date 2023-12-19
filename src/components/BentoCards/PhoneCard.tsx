@@ -15,6 +15,7 @@ export const cormorantUpright = Cormorant_Upright({
 export function PhoneCard({
   title,
   icon,
+  techIcons,
   brief,
   url,
   description,
@@ -22,6 +23,7 @@ export function PhoneCard({
 }: {
   title: string;
   icon: string;
+  techIcons: string[];
   brief: string;
   url: string;
   description: string;
@@ -44,6 +46,9 @@ export function PhoneCard({
       intervalId = setInterval(() => {
         setNextImage((currentImage + 1) % images.length);
       }, 2000);
+    } else if (intervalId) {
+      clearInterval(intervalId);
+      setShowInfo(false);
     }
 
     return () => {
@@ -80,9 +85,9 @@ export function PhoneCard({
           (showInfo ? "cursor-default" : "cursor-none")
         }
         onMouseEnter={() => setIsHovering(true)}
-        onMouseLeave={() => setIsHovering(false)}
+        onMouseLeave={() => {setIsHovering(false);setShowInfo(false);}}
         onClick={() => {
-          if (!showInfo) setShowInfo(true);
+            if (!showInfo) setShowInfo(true);
         }}
       >
         <div className="w-full h-full rounded-3xl bg-black-ligth text-matrix-light hover:bg-matrix-normal hover:text-matrix-dark transition-all duration-300">
@@ -98,7 +103,11 @@ export function PhoneCard({
               showInfo={showInfo}
               setShowInfo={setShowInfo}
             />
-            <PhoneCardBottomBar title={title} icon={icon} />
+            <PhoneCardBottomBar
+              title={title}
+              icon={icon}
+              techIcons={techIcons}
+            />
           </div>
         </div>
       </motion.div>

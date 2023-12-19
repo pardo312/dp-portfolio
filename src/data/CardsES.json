@@ -7,6 +7,10 @@
     "brief": "Start-up para crear #menus digitales modulares@ para restaurantes. ",
     "description": "Permite #cambiar@ en cualquier momento la #informacion y apariencia@ del menu para proporcionar a los restaurantes una mayor elasticidad con sus #menus sin@ necesidad de un #progamador@ o mas #costos de impresion@ fisica.",
     "url": "https://www.menu-alchemy.com",
+    "techIcons": [
+      "Nextjs",
+      "Supabase"
+    ],
     "images": [
       "/Images/Portfolio/menu-alchemy/menu-alchemy-0.webp",
       "/Images/Portfolio/menu-alchemy/menu-alchemy-1.webp",
@@ -22,6 +26,9 @@
     "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
     "brief":"Videojuego #action-rpg@ hecho en #48 horas@, usando la #mitologia Muisca@ como base.",
     "type": "pc",
+    "techIcons": [
+      "Unity"
+    ],
     "images": [
       "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.webp",
       "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.webp",
@@ -48,6 +55,10 @@
     "brief": "#Marketplace@ para econtrar #veterinarios de calidad@ alrededor tuyo. ",
     "description": "Start-up enfocada en #conectar@ a los #dueños de mascotas@ con los mejores #veterinarios@ de su zona. Permite #agendar@ citas, ver el #perfil@ de los veterinarios y  progamar el #domicilio@ de la mascota.",
     "url": "https://play.google.com/store/apps/details?id=com.hachi.hachi",
+    "techIcons": [
+      "Flutter",
+      "Supabase"
+    ],
     "images": [
       "/Images/Portfolio/hachi/Hachi-0.webp",
       "/Images/Portfolio/hachi/Hachi-1.webp",
@@ -82,6 +93,10 @@
     "url":"https://legalmatic-webpage.vercel.app",
     "brief": "Herramienta de #inteligencia artificial@ para generar #documentos legales@ rapidamente.",
     "type": "pc",
+    "techIcons": [
+      "Nextjs",
+      "Firebase"
+    ],
     "images": [
       "/Images/Portfolio/legalmatic/legalmatic-0.webp",
       "/Images/Portfolio/legalmatic/legalmatic-1.webp",
@@ -114,6 +129,10 @@
     "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
     "brief":"Videojuego #plataformas@. Sistemas de #autenticacion@ y #creacion/compartida de mundos online@",
     "type": "pc",
+    "techIcons": [
+      "Unity",
+      "Firebase"
+    ],
     "images": [
       "/Images/Portfolio/boom-away/boom-away-0.webp",
       "/Images/Portfolio/boom-away/boom-away-1.webp",
@@ -128,6 +147,10 @@
     "description": "Desarrollado por la empresa #GetaClub@, participe en el desarrollo de #sistema networking de bajo nivel@ desde 0, #desarrollo de funcionalidades@ y #mantenimiento de la app@",
     "url": "https://play.google.com/store/apps/details?id=com.getaclub.puzzle",
     "type": "phone",
+    "techIcons": [
+      "Unity",
+      "Azure"
+    ],
     "images": [
       "/Images/Portfolio/puzzle/puzzle-0.webp",
       "/Images/Portfolio/puzzle/puzzle-1.webp",
@@ -158,6 +181,11 @@
     "icon":  "/Images/Portfolio/sitm/SITM-logo.webp",
     "brief":"Experiencia en #VR(realiadad virtual) multijugador.@ Vive la #historia de hamlet@ en #primera persona@.",
     "type": "pc",
+    "techIcons": [
+      "Unity",
+      "Azure",
+      "Aws"
+    ],
     "images": [
       "/Images/Portfolio/sitm/SITM-0.webp",
       "/Images/Portfolio/sitm/SITM-1.webp",
@@ -172,6 +200,9 @@
     "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
     "brief":"Videojuego #puzzle@. Retrata la situacion #Colombiana@ de #ocultar masacres@ por parte del #Estado@",
     "type": "pc",
+    "techIcons": [
+      "Unity"
+    ],
     "images": [
       "/Images/Portfolio/la-reconstruccion/la-reconstruccion-0.webp",
       "/Images/Portfolio/la-reconstruccion/la-reconstruccion-1.webp",

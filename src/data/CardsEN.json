@@ -7,6 +7,10 @@
     "brief": "Start-up to create #modular digital menus@ for restaurants.",
     "description": "Allows #changing information and appearance@ of the menu at any time to provide restaurants with greater flexibility in their #menus without@ the need for a #programmer@ or additional #costs of physical printing@.",
     "url": "https://www.menu-alchemy.com",
+    "techIcons": [
+      "Nextjs",
+      "Supabase"
+    ],
     "images": [
       "/Images/Portfolio/menu-alchemy/menu-alchemy-0.webp",
       "/Images/Portfolio/menu-alchemy/menu-alchemy-1.webp",
@@ -22,6 +26,9 @@
     "url": "https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
     "brief": "#Action RPG@ game created in #48 hours@, using #Muisca mythology@ as a base for the story.",
     "type": "pc",
+    "techIcons": [
+      "Unity"
+    ],
     "images": [
       "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.webp",
       "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.webp",
@@ -48,6 +55,10 @@
     "brief": "#Marketplace@ to find #quality veterinarians@ near you.",
     "description": "Start-up focused on #connecting pet owners with the best veterinarians@ in their area. Allows #scheduling@ appointments, viewing veterinarian #profiles@, and scheduling #pet delivery@ to the veterinarian and back.",
     "url": "https://play.google.com/store/apps/details?id=com.hachi.hachi",
+    "techIcons": [
+      "Flutter",
+      "Supabase"
+    ],
     "images": [
       "/Images/Portfolio/hachi/Hachi-0.webp",
       "/Images/Portfolio/hachi/Hachi-1.webp",
@@ -82,6 +93,10 @@
     "url": "https://legalmatic-webpage.vercel.app",
     "brief": "#Artificial intelligence@ tool to generate #legal documents@ quickly.",
     "type": "pc",
+    "techIcons": [
+      "Nextjs",
+      "Firebase"
+    ],
     "images": [
       "/Images/Portfolio/legalmatic/legalmatic-0.webp",
       "/Images/Portfolio/legalmatic/legalmatic-1.webp",
@@ -114,6 +129,10 @@
     "url": "https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
     "brief": "#Platformer@ game with #authentication@ and #online shared world creation@.",
     "type": "pc",
+    "techIcons": [
+      "Unity",
+      "Firebase"
+    ],
     "images": [
       "/Images/Portfolio/boom-away/boom-away-0.webp",
       "/Images/Portfolio/boom-away/boom-away-1.webp",
@@ -128,6 +147,10 @@
     "description": "Developed by #GetaClub@, I participated in the development of #low-level networking system from scratch@, #feature development@, and #app maintenance@.",
     "url": "https://play.google.com/store/apps/details?id=com.getaclub.puzzle",
     "type": "phone",
+    "techIcons": [
+      "Unity",
+      "Azure"
+    ],
     "images": [
       "/Images/Portfolio/puzzle/puzzle-0.webp",
       "/Images/Portfolio/puzzle/puzzle-1.webp",
@@ -158,6 +181,11 @@
     "icon": "/Images/Portfolio/sitm/SITM-logo.webp",
     "brief": "#Multiplayer@ experience in #VR (virtual reality)@. Live the #story of Hamlet@ in first person.",
     "type": "pc",
+    "techIcons": [
+      "Unity",
+      "Azure",
+      "Aws"
+    ],
     "images": [
       "/Images/Portfolio/sitm/SITM-0.webp",
       "/Images/Portfolio/sitm/SITM-1.webp",
@@ -172,6 +200,9 @@
     "url": "https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
     "brief": "#Puzzle@ video game depicting the #Colombian@ situation of the #slaugthers hidden by the government@.",
     "type": "pc",
+    "techIcons": [
+      "Unity"
+    ],
     "images": [
       "/Images/Portfolio/la-reconstruccion/la-reconstruccion-0.webp",
       "/Images/Portfolio/la-reconstruccion/la-reconstruccion-1.webp",
