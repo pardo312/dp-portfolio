@@ -65,8 +65,7 @@ function PortfolioBento({
   return (
     <div className="flex flex-col h-fit w-full ">
       <div
-        className=" w-full h-full grid gird-cols-1 md:grid-cols-4 lg:grid-cols-6 auto-rows-[9rem] gap-10 py-6 px-10 md:px-32 lg:px-32 my-10"
-        style={{ zoom: 0.75 }}
+        className=" w-full h-full grid gird-cols-1 md:grid-cols-4 lg:grid-cols-6 auto-rows-[9rem] gap-10 py-6 px-10 md:px-20 lg:px-10 my-10"
       >
         {cards
           .slice(0, seeAll ? cards.length : 9)

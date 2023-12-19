@@ -183,7 +183,6 @@
     "type": "pc",
     "techIcons": [
       "Unity",
-      "Azure",
       "Aws"
     ],
     "images": [

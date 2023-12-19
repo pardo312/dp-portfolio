@@ -32,7 +32,7 @@ export function PcMockup({
         className="z-10  pointer-events-none"
       />
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="bg-black w-[250px] h-[161px] max-w-[80%] min-h-[65%] lg:min-h-[80%] lg:max-w-[21vw]" />
+        <div className="bg-black w-[250px] h-[130px] md:h-[161px] max-w-[80%] min-h-[65%] lg:min-h-[80%] lg:max-w-[21vw]" />
       </div>
 
       <div className="absolute mb-3 inset-0 flex items-center justify-center">

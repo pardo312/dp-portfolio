@@ -73,8 +73,8 @@ export function PcCard({
           "rounded-3xl bg-black-ligth col-span-2 row-span-2 " +
           (showInfo ? "cursor-default" : "cursor-none")
         }
-        onMouseOver={() => setIsHovering(true)}
-        onMouseOut={() => {setIsHovering(false);setShowInfo(false);}}
+        onMouseEnter={() => setIsHovering(true)}
+        onMouseLeave={() => {setIsHovering(false);setShowInfo(false);}}
         onClick={() => {
           if (!showInfo) setShowInfo(true);
         }}

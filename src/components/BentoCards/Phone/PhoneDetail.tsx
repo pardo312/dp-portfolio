@@ -23,7 +23,7 @@ export function PhoneDetail({
         opacity: showInfo ? 1 : 0,
       }}
       className={
-        "text-matrix-dark text-2xl md:text-xl xl:text-[2vw] 2xl:text-2xl  justify-center items-center " +
+        "text-matrix-dark text-base lg:text-base xl:text-xl justify-center items-center " +
         cormorantUpright.className
       }
     >
@@ -52,14 +52,14 @@ function Brief({
       )} </span>`
   );
   return (
-    <div className="absolute top-16 right-5 text-center w-[50%] h-[50%] ">
+    <div className="absolute top-16 right-0 text-center w-[50%] md:w-[30%] lg:w-[50%] h-[50%] ">
       <div dangerouslySetInnerHTML={{ __html: coloredBrief }}></div>
       <div className="flex justify-center items-center w-full my-5 h-16">
         <a
           style={{ pointerEvents: isInfo ? "auto" : "none" }}
           href={url}
           target="_blank"
-          className="w-52 h-full rounded-3xl flex justify-center items-center bg-black text-matrix-light text-3xl"
+          className="w-52 h-12 md:h-12 rounded-3xl flex justify-center items-center bg-black text-matrix-light "
         >
           Visitar
         </a>

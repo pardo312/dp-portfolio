@@ -10,8 +10,33 @@ export default function ProfilePic({
   isProfilePicFocused: boolean;
   setIsProfilePicFocused: any;
 }) {
+  const [isLargeScreen, setIsLargeScreen] = useState(true);
+
+  const addListener = () => {
+    if (window) {
+      let mediaQuery = window.matchMedia("(min-width: 768px)");
+      setIsLargeScreen(mediaQuery.matches);
+      mediaQuery.addEventListener("change", (e) => setIsLargeScreen(e.matches));
+    } else {
+      setTimeout(addListener, 100);
+    }
+  };
+
+  useEffect(() => {
+    addListener();
+  }, []);
+
   return (
-    <div className="profilePic absolute" >
+    <motion.div
+      initial={{
+        scale: isLargeScreen ? 1 : 0.7,
+      }}
+      animate={{
+        scale: isLargeScreen ? 1 : 0.7,
+        transition: { duration: 0.3 },
+      }}
+      className="absolute"
+    >
       <div className="absoulte ">
         <motion.div
           whileHover={{
@@ -34,7 +59,7 @@ export default function ProfilePic({
         </motion.div>
       </div>
       <TechBubbles isGithubVisible={isProfilePicFocused} />
-    </div>
+    </motion.div>
   );
 }
 
@@ -73,7 +98,7 @@ const bubbles = [
 
 function TechBubbles({ isGithubVisible }: { isGithubVisible: boolean }) {
   return (
-    <>
+    <div>
       {bubbles.map((bubble, index) => (
         <div
           key={"tech_bubble_" + index}
@@ -99,6 +124,6 @@ function TechBubbles({ isGithubVisible }: { isGithubVisible: boolean }) {
           </motion.div>
         </div>
       ))}
-    </>
+    </div>
   );
 }

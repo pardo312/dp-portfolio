@@ -39,8 +39,8 @@ export function CustomCursor(Props: CustomCursorProps) {
         opacity: 0,
       }}
       animate={{
-        x: (mousePos.x - 45) * 1.35,
-        y: (mousePos.y - 45) * 1.35,
+        x: (mousePos.x - 45),
+        y: (mousePos.y - 45),
         opacity: showInfo ? 0 : isHovering ? 1 : 0,
         scale: showInfo ? 1.5 : isHovering ? sizeCursor : 0.1,
       }}

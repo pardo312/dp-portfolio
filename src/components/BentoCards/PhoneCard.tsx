@@ -91,7 +91,7 @@ export function PhoneCard({
         }}
       >
         <div className="w-full h-full rounded-3xl bg-black-ligth text-matrix-light hover:bg-matrix-normal hover:text-matrix-dark transition-all duration-300">
-          <div className="flex flex-col w-full h-full topbar justify-between items-center py-12 px-5">
+          <div className="flex flex-col w-full h-full topbar justify-between items-center pt-12 pb-2 md:py-12 px-5">
             {/**iphone frame */}
             <PhoneContent
               brief={brief}

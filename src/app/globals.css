@@ -17,12 +17,6 @@
   }
 }
 
-@media (max-width: 600px) {
-  .profilePic {
-    zoom: 0.65;
-  }
-}
-
 body {
     background-size: 10rem;
     background-repeat: repeat;

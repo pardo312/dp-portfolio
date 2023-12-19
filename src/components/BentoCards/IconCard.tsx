@@ -77,7 +77,7 @@ export function IconCard({
                   <></>
                 )}
                 <div
-                  className="lg:text-[1vw] text-center"
+                  className="text-sm lg:text-[1vw] text-center"
                   dangerouslySetInnerHTML={{ __html: coloredDescription }}
                 ></div>
               </div>

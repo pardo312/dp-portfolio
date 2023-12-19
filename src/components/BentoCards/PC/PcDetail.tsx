@@ -25,7 +25,7 @@ export function PcDetail({
         opacity: showInfo ? 1 : 0,
       }}
       className={
-        " text-matrix-dark text-2xl md:text-xl xl:text-[2vw] 2xl:text-2xl flex justify-center items-center " +
+        "text-matrix-dark text-base lg:text-base xl:text-xl justify-center items-center " +
         cormorantUpright.className
       }
     >
@@ -53,8 +53,8 @@ function Brief({
       )} </span>`
   );
   return (
-    <div className="absolute top-2 right-0 lg:right-2  text-center w-[50%] h-[50%] ">
-      <div className="text-xl lg:text-2xl" dangerouslySetInnerHTML={{ __html: coloredBrief }}></div>
+    <div className="absolute top-2 right-[-0.8rem] text-center w-[50%] h-[50%] ">
+      <div className="text-base lg:text-base" dangerouslySetInnerHTML={{ __html: coloredBrief }}></div>
       <div className="flex justify-center items-center w-full my-2 h-12">
         {
           
@@ -63,7 +63,7 @@ function Brief({
           style={{ pointerEvents: isInfo ? "auto" : "none" }}
           href={url}
           target="_blank"
-          className="w-52 h-full rounded-3xl flex justify-center items-center bg-black text-matrix-light text-3xl"
+          className="w-52 h-10 rounded-3xl flex justify-center items-center bg-black text-matrix-light "
         >
           Visitar
         </a>):(<></>)
