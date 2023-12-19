@@ -32,13 +32,13 @@ export function PcMockup({
         className="z-10  pointer-events-none"
       />
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="bg-black w-[250px] h-[130px] md:h-[161px] max-w-[80%] min-h-[65%] lg:min-h-[80%] lg:max-w-[21vw]" />
+        <div className="bg-black w-[250px] h-[130px] md:h-[168px] max-w-[80%] min-h-[89%] lg:max-h-[13vw] lg:max-w-[19.5vw]" />
       </div>
 
       <div className="absolute mb-3 inset-0 flex items-center justify-center">
         <img
           src={images[currentImage]}
-          className="w-[15rem] max-w-[80%] lg:max-w-[80%] h-auto min-h-[65%] lg:min-h-[80%] transition-opacity duration-1000"
+          className="w-[15rem] max-w-[80%] lg:max-w-[80%] h-auto min-h-[87%] lg:max-h-[19.5vw] transition-opacity duration-1000"
           style={{ opacity: nextImage === currentImage ? 1 : 0 }}
           title="Image phone"
         />
