@@ -47,10 +47,8 @@ export default function ProfilePic({
           onMouseLeave={() => setIsProfilePicFocused(false)}
         >
           <div className="absolute rounded-full overflow-hidden border-8 border-matrix-dark drop-shadow-2xl z-0">
-            <Image
-              src="/Images/profilePic.svg"
-              width={250}
-              height={250}
+            <img
+              src="/Images/profilePic.png"
               alt="Picture of the author"
               className="grayscale hover:grayscale-0 transition-all"
             />
