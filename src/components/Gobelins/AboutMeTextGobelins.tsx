@@ -19,7 +19,7 @@ export function AboutMeText() {
         <div className="leading-tight text-matrix-light">
           Salut! <br />
           <br />
-          I'm Daniel Pardo and this is the cover letter and portfolio I have
+          I am Daniel Pardo and this is the cover letter and portfolio I have
           prepared to apply for the new {""}
           <span className="text-matrix-normal">
             GOBELINS Summer School scholarship in arts and video games.
