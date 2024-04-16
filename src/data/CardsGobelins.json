@@ -1,0 +1,108 @@
+[
+  {
+    "title":"Wizards Nostalgia",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "icon": "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-logo.webp",
+    "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
+    "brief":"Videojuego #action-rpg@ hecho en #48 horas@, usando la #mitologia Muisca@ como base. Eres un mago y tienes recolectar talismanes sagrados para #destruir las barreras y habilitar un puente@ para rescatar al hada de las #garras del mal.@",
+    "type": "pc",
+    "techIcons": [
+      "Unity"
+    ],
+    "images": [
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-0.webp",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-1.webp",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-2.webp",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-3.webp",
+      "/Images/Portfolio/wizard-nostalgia/wizard-nostalgia-4.webp"
+    ]
+  },
+  {
+    "title":"Boom Away",
+    "className": "rounded-md border-4 border-matrix-light col-span-4 row-span-4",
+    "icon": "/Images/Portfolio/boom-away/boom-away-logo.webp",
+    "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
+    "brief":"Videojuego #plataformas@. Sistemas de #autenticacion@ y #creacion/compartida de mundos online@. Crea un puente entre tu y tus amigos para explotar tu creatividad y divertirse!",
+    "type": "pc",
+    "techIcons": [
+      "Unity",
+      "Firebase"
+    ],
+    "images": [
+      "/Images/Portfolio/boom-away/boom-away-0.webp",
+      "/Images/Portfolio/boom-away/boom-away-1.webp",
+      "/Images/Portfolio/boom-away/boom-away-2.webp"
+    ]
+  },
+  {
+    "title":"Shakespear in the metaverse",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "icon":  "/Images/Portfolio/sitm/SITM-logo.webp",
+    "brief":"Experiencia en #VR(realiadad virtual) multijugador.@ Eres el fantasma de alguien al que hamlet ha asesinado, sin embargo el sigue inpune! Colabora con otras 10 personas para desenmascarar el culpable #aprovechando el puente entre la vida y la muerte.@",
+    "url":"https://www.linkedin.com/posts/kreis_kreisimmersive-kreisexperiences-departurelounge-activity-7089268498153037826-nnvI",
+    "type": "pc",
+    "techIcons": [
+      "Unity",
+      "Aws"
+    ],
+    "images": [
+      "/Images/Portfolio/sitm/SITM-0.webp",
+      "/Images/Portfolio/sitm/SITM-1.webp",
+      "/Images/Portfolio/sitm/SITM-2.webp",
+      "/Images/Portfolio/sitm/SITM-3.webp"
+    ]
+  },
+  {
+    "title":"Curriculum",
+    "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
+    "type": "icon",
+    "colSize": 1,
+    "icon": "/Images/Portfolio/Icons/HDV.svg",
+    "description": "Mi Curriculum vitae/hoja de vida, descargalo en formato PDF",
+    "url":"https://drive.google.com/file/d/1hIqxwrQmj_A6cLgp3stA7RlgFAlTD5JT/view?usp=sharing"
+  },
+  {
+    "title":"Jiufen Games",
+    "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
+    "type": "icon",
+    "colSize": 1,
+    "icon": "/Images/Portfolio/Icons/JiufenGames.webp",
+    "description": "Creador de pagina de Instagram de tips para progamar en c# y Unity.",
+    "url":"https://www.instagram.com/jiufengames/"
+  },
+  {
+    "title":"La reconstruccion",
+    "className": "rounded-md border-4 border-matrix-light col-span-2 row-span-2",
+    "icon": "/Images/Portfolio/la-reconstruccion/la-reconstruccion-logo.webp",
+    "url":"https://jiufen.itch.io/the-nostalgy-of-the-wizzard",
+    "brief":"Videojuego #puzzle@. Retrata la situacion #Colombiana@ de #ocultar masacres@ por parte del #Estado@. Crea un puente entre los asesinatos y la verdad para que el arbol de la vida crezca.",
+    "type": "pc",
+    "techIcons": [
+      "Unity"
+    ],
+    "images": [
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-0.webp",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-1.webp",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-2.webp",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-3.webp",
+      "/Images/Portfolio/la-reconstruccion/la-reconstruccion-4.webp"
+    ]
+  },
+  {
+    "title":"Languages",
+    "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
+    "type": "icon",
+    "colSize": 1,
+    "icon": "/Images/Portfolio/Icons/Languages.svg",
+    "description": "Español nativo, Ingles avanzado y Frances basico"
+  },
+  {
+    "title":"Andes",
+    "className": "rounded-md border-4 border-matrix-light col-span-1 row-span-1",
+    "type": "icon",
+    "colSize": 1,
+    "icon": "/Images/Portfolio/Icons/Andes.webp",
+    "description": "Ingeniero de sistemas graduado de la Universidad de los Andes",
+    "url":"https://drive.google.com/file/d/1cFTA19FGz2PoNiDzS1rY2TMkv-rEa_sP/view?usp=sharing"
+  }
+]

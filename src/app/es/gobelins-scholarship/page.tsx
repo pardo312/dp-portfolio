@@ -1,10 +1,10 @@
 "use client";
-import { ContactButtons } from "../../components/ContactButtons";
-import { MainScreen } from "../../components/MainScreen";
-import { AboutMeText } from "../../components/AboutMeText";
-import Companies from "../../components/Companies";
-import { Portfolio } from "../../components/Portfolio";
-import { Footer } from "../../components/Footer";
+import { ContactButtons } from "../../../components/ContactButtons";
+import { MainScreen } from "../../../components/MainScreen";
+import { AboutMeText } from "../../../components/Gobelins/AboutMeTextGobelins";
+import Companies from "../../../components/Companies";
+import { PortfolioGobelins } from "../../../components/Gobelins/PortfolioGobelins";
+import { Footer } from "../../../components/Footer";
 import { ContextLocaleProvider } from "@/context/LocaleContext";
 import { LocaleEnum } from "@/context/LocaleEnum";
 import { useEffect, useState } from "react";
@@ -25,16 +25,12 @@ export default function HomeEnglish() {
       </div>
     );
 
-
   return (
     <ContextLocaleProvider desiredLocale={LocaleEnum.ES}>
       <MainScreen />
       <ContactButtons isTitleContact={true} />
       <AboutMeText />
-      <Companies />
-      <Portfolio />
-      <ContactButtons isTitleContact={false} />
-      <Footer />
+      <PortfolioGobelins />
     </ContextLocaleProvider>
   );
 }
