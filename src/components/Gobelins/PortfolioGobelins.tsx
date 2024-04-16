@@ -32,19 +32,11 @@ export function PortfolioGobelins() {
           :
         </div>
       </motion.div>
-      <PortfolioBento locale={localeData.locale} cards={gobelinCards} />
+      <PortfolioBento cards={gobelinCards} />
     </>
   );
 }
-function PortfolioBento({
-  locale,
-  cards,
-}: {
-  seeAll: boolean;
-  setSeeAll: any;
-  locale: LocaleEnum;
-  cards: any;
-}) {
+function PortfolioBento({ cards }: { cards: any }) {
   return (
     <div className="flex flex-col h-fit w-full ">
       <div className=" w-full h-full grid gird-cols-1 md:grid-cols-4 lg:grid-cols-6 auto-rows-[9rem] gap-10 py-6 px-10 md:px-20 lg:px-10 my-10">
