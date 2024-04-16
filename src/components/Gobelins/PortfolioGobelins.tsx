@@ -23,11 +23,10 @@ export function PortfolioGobelins() {
         }
       >
         <div className="leading-tight text-matrix-light ">
-          Estos son algunos de los proyectos que he trabajado en los cuales
-          existe la tematica de
+          These are some of the projects I have worked on that involve the theme
+          of {""}
           <span className="text-matrix-normal">
-            {" "}
-            Un puente entre dos mundos{" "}
+            A Bridge Between Two Worlds
           </span>
           :
         </div>

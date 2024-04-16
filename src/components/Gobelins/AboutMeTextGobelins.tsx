@@ -19,10 +19,10 @@ export function AboutMeText() {
         <div className="leading-tight text-matrix-light">
           Salut! <br />
           <br />
-          Soy Daniel Pardo y esta es mi carta de presentacion y portafolio para
-          aplicar a la {""}
+          I'm Daniel Pardo and this is the cover letter and portfolio I have
+          prepared to apply for the new {""}
           <span className="text-matrix-normal">
-            beca de escuela de verano de GOBELINS en artes y videojuegos.
+            GOBELINS Summer School scholarship in arts and video games.
           </span>
         </div>
       </motion.div>
@@ -36,17 +36,20 @@ export function AboutMeText() {
         }
       >
         <div className="leading-tight text-matrix-light">
-          Un poco sobre mi y el motivo de mi {""}
-          <span className="text-matrix-normal">interes en la beca</span>:
+          A little bit about me and my {""}
+          <span className="text-matrix-normal">
+            interest on the scholarship
+          </span>
+          :
         </div>
         <div className="text-xl md:text-2xl leading-tight text-matrix-light">
-          He sido desarrollador de videojuegos en Unity por mas 4 años y he
-          estado presente en la industria tanto de Colombia como de Canada. En
-          mi carrera he realizado multitud de proyectos, jams y mentorias. He
-          participado en la mayoria del proceso creativo desde {""}
+          I have been a Unity game developer for over 4 years and have been
+          involved in the industry in both Colombia and Canada. In my career, I
+          have completed numerous projects, jams, and mentorships. I have
+          participated in most of the creative process including {""}
           <span className="text-matrix-normal">
-            progamacion, optimizacion, musica, arte tecnico, modelado, animacion
-            y diseño
+            programming, optimization, music, technical art, modeling,
+            animation, and design
           </span>
           .
           <br />
@@ -58,15 +61,15 @@ export function AboutMeText() {
           <span className="text-matrix-normal">
             mundos no-euclidianos y hand tracking
           </span>
-          , para realizar una experiencia nunca antes vista.
+          , to create an unprecedented experience.
           <br />
           <br />
-          Por otro lado nunca he salido del pais, soy una persona introvertida
-          que no ha tenido la oportunidad o la motivacion para hacerlo. Pero ya
-          que se presento esta oportunidad, decidi aplicar para {""}
+          On the other hand, I have never left the country; I am an introverted
+          person who has not had the opportunity or motivation to do so. But
+          since this opportunity has arisen, I decided to apply for {""}
           <span className="text-matrix-normal">
-            conocer otra cultura, otras personas que tambien les apasiona este
-            medio y practicar mi frances.
+            the chance to experience another culture, meet other people who are
+            also passionate about this field, and practice my French.
           </span>
         </div>
       </motion.div>
