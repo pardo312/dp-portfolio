@@ -61,7 +61,7 @@ function Brief({
           target="_blank"
           className="w-52 h-12 md:h-12 rounded-3xl flex justify-center items-center bg-black text-matrix-light "
         >
-          Visitar
+          Visit
         </a>
       </div>
     </div>

@@ -18,9 +18,8 @@ export function AboutMeText() {
       >
         <div className="leading-tight text-matrix-light">
           Salut! <br />
-          <br />
-          I am Daniel Pardo and this is the cover letter and portfolio I have
-          prepared to apply for the new {""}
+          <br />I am Daniel Pardo and this is the cover letter and portfolio I
+          have prepared to apply for the new {""}
           <span className="text-matrix-normal">
             GOBELINS Summer School scholarship in arts and video games.
           </span>
@@ -54,12 +53,12 @@ export function AboutMeText() {
           .
           <br />
           <br />
-          Mi meta acutal es empujar los limites de que es posible con las nuevas
-          tecnologias rapidamente cambiantes, en especifico en el ambito de
-          VR/XR. Tengo un proyecto especifico en el cual quisiera profundizar.
-          La idea es usar {""}
+          My current goal is to push the boundaries of what is possible with
+          the rapidly changing new technologies, specifically in the field of VR/XR.
+          I have a specific project on which I would like to delve deeper. The
+          idea is to use {""}
           <span className="text-matrix-normal">
-            mundos no-euclidianos y hand tracking
+            non-ecludian worlds and hand tracking
           </span>
           , to create an unprecedented experience.
           <br />
