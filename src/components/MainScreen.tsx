@@ -57,24 +57,15 @@ function Title({ isProfilePicFocused }: { isProfilePicFocused: boolean }) {
   );
 }
 
-export const things = [
-  "GameDev",
-  "FullStack",
-  "Mobile",
-  "GameDev",
-  "FullStack",
-  "Mobile",
-  "GameDev",
-  "FullStack",
-  "Mobile",
-];
+const baseThings = ["GameDev", "FullStack", "Mobile"];
+export const things = Array(10).fill(baseThings).flat();
 
 function BannerOfThings() {
   return (
     <div
       className={
         cormorantUpright.className +
-        " absolute top-[35%] md:top-[40%] lg:top-[40%] bg-matrix-dark w-full max-w-[100rem] h-20 md:h-24 overflow-hidden text-3xl md:text-6xl"
+        " absolute top-[35%] md:top-[40%] lg:top-[40%] bg-matrix-dark w-full h-20 md:h-24 overflow-hidden text-3xl md:text-6xl"
       }
     >
       <div className="flex w-full h-full items-center overflow-hidden space-x-8 md:space-x-16  md:[mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] ">
