@@ -58,7 +58,8 @@ function Title({ isProfilePicFocused }: { isProfilePicFocused: boolean }) {
 }
 
 const baseThings = ["GameDev", "FullStack", "Mobile"];
-export const things = Array(10).fill(baseThings).flat();
+const repetitions = 10;
+export const things = Array(repetitions).fill(baseThings).flat();
 
 function BannerOfThings() {
   return (
@@ -69,10 +70,10 @@ function BannerOfThings() {
       }
     >
       <div className="flex w-full h-full items-center overflow-hidden space-x-8 md:space-x-16  md:[mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] ">
-        <div className="flex  space-x-6 md:space-x-16    animate animate-infinite-scroll">
-          {things.map((thing, index) => (
-            <div key={"thing_" + index} className="flex space-x-6 md:space-x-16">
-              <div className=" leading-tight text-matrix-normal">{thing}</div>
+        <div className="flex space-x-6 md:space-x-16 animate-infinite-scroll">
+          {[...things, ...things].map((thing, index) => (
+            <div key={`thing_${index}`} className="flex space-x-6 md:space-x-16 flex-shrink-0">
+              <div className="leading-tight text-matrix-normal whitespace-nowrap">{thing}</div>
               <div className="leading-tight text-matrix-normal">•</div>
             </div>
           ))}

@@ -21,14 +21,14 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
-        "infinite-scroll": "infinite-scroll 15s linear infinite",
+        "infinite-scroll": "infinite-scroll 80s linear infinite",
         'spin-slow': 'spin 5s linear infinite',
       },
       keyframes: {
         "infinite-scroll": {
-          "0%": { transform: "translateX(-0%)" },
-          "100%": {
-            transform: "translateX(-10%)",
+          from: { transform: "translateX(0)" },
+          to: {
+            transform: "translateX(calc(-100% / 2))",
           },
         },
       },

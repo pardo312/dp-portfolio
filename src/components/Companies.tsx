@@ -5,20 +5,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useContext } from "react";
 
-export const things = [
-  "GetaClub",
-  "Kreis",
-  "Timba",
-  "Troniks",
-  "GetaClub",
-  "Kreis",
-  "Timba",
-  "Troniks",
-  "GetaClub",
-  "Kreis",
-  "Timba",
-  "Troniks",
-];
+const baseThings = ["GetaClub","Kreis", "Timba", "Troniks", "Yumebau"];
+export const things = Array(10).fill(baseThings).flat();
 
 export default function Companies() {
   let localeData = useContext(LocaleDataContext);
@@ -59,10 +47,10 @@ export default function Companies() {
       >
         <div className="flex  w-full h-full items-center overflow-hidden space-x-16 [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] ">
           <div className="flex  space-x-16   animate animate-infinite-scroll">
-            {things.map((thing, index) => (
+            {[...things, ...things].map((thing, index) => (
               <div
-                key={"thing_" + index}
-                className="flex flex-col w-32 item-center justify-center "
+                key={`thing_${index}`}
+                className="flex flex-col w-32 item-center justify-center flex-shrink-0"
               >
                 <Image
                   src={"/Images/Companies/" + thing + ".svg"}
