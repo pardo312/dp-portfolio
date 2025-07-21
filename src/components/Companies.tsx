@@ -5,8 +5,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useContext } from "react";
 
-const baseThings = ["GetaClub","Kreis", "Timba", "Troniks", "Yumebau"];
-export const things = Array(10).fill(baseThings).flat();
+const baseCompanies = ["GetaClub","Kreis", "Timba", "Troniks", "Yumebau"];
+const repetitions = 4;
+export const companies = Array(repetitions).fill(baseCompanies).flat();
 
 export default function Companies() {
   let localeData = useContext(LocaleDataContext);
@@ -46,17 +47,19 @@ export default function Companies() {
         className={" w-full max-w-[100rem] h-44 overflow-hidden xl:px-44 "}
       >
         <div className="flex  w-full h-full items-center overflow-hidden space-x-16 [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] ">
-          <div className="flex  space-x-16   animate animate-infinite-scroll">
-            {[...things, ...things].map((thing, index) => (
+          <div className="flex space-x-16 animate-infinite-scroll">
+            {[...companies, ...companies, ...companies].map((company, index) => (
               <div
-                key={`thing_${index}`}
-                className="flex flex-col w-32 item-center justify-center flex-shrink-0"
+                key={`company_${index}`}
+                className="flex flex-col w-32 items-center justify-center flex-shrink-0"
               >
                 <Image
-                  src={"/Images/Companies/" + thing + ".svg"}
-                  width={250}
-                  height={250}
-                  alt="Company image"
+                  src={`/Images/Companies/${company}.svg`}
+                  width={128}
+                  height={128}
+                  alt={`${company} logo`}
+                  loading="lazy"
+                  quality={75}
                 />
               </div>
             ))}

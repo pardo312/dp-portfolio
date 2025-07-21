@@ -26,9 +26,9 @@ const config: Config = {
       },
       keyframes: {
         "infinite-scroll": {
-          from: { transform: "translateX(0)" },
-          to: {
-            transform: "translateX(calc(-100% / 2))",
+          "0%": { transform: "translateX(0)" },
+          "100%": {
+            transform: "translateX(-33.33%)",
           },
         },
       },
