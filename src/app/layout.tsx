@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Spectral_SC } from "next/font/google";
+import { Beacon } from "@/components/Beacon";
 import "./globals.css";
 
 const spectral = Spectral_SC({
@@ -19,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={spectral.className + " bg-black-ligthest"}>{children}</body>
+      <body className={spectral.className + " bg-black-ligthest"}>
+        <Beacon />
+        {children}
+      </body>
     </html>
   );
 }
