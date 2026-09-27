@@ -57,7 +57,7 @@ function Title({ isProfilePicFocused }: { isProfilePicFocused: boolean }) {
   );
 }
 
-const baseThings = ["GameDev", "FullStack", "Mobile"];
+const baseThings = ["GameDev", "XR / VR", "Game QA", "FullStack", "Mobile"];
 const repetitions = 5;
 export const things = Array(repetitions).fill(baseThings).flat();
 

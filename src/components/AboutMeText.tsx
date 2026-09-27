@@ -18,13 +18,15 @@ export function AboutMeText() {
         }
       >
         <div className="leading-tight text-matrix-light">
-          Ingeniero de sistemas con 4+ años de experiencia que cree
-          fervientemente que con{" "}
+          5+ años creando y testeando{" "}
           <span className="text-matrix-normal">
-            orden, pasion y persistencia{" "}
+            juegos y experiencias XR en vivo{" "}
           </span>
-          es posible crear cualquier producto para ayudar a las personas a tener
-          <span className="text-matrix-normal"> una mejor vida</span>.
+          para Meta Quest, iOS/Android y PC — del
+          <span className="text-matrix-normal"> gameplay </span>
+          a la
+          <span className="text-matrix-normal"> estrategia de calidad</span>,
+          con tests automatizados y CI/CD.
         </div>
       </motion.div>
     );
@@ -39,13 +41,15 @@ export function AboutMeText() {
         }
       >
         <div className="leading-tight text-matrix-light">
-          Systems engineer with 4+ years of experience who fervently believes
-          that with{" "}
+          5+ years building and testing{" "}
           <span className="text-matrix-normal">
-            order, passion, and persistence
+            live games and XR experiences{" "}
           </span>
-          it is possible to create any product to help people have
-          <span className="text-matrix-normal"> a better life</span>.
+          for Meta Quest, iOS/Android and PC — from
+          <span className="text-matrix-normal"> gameplay code </span>
+          to
+          <span className="text-matrix-normal"> quality strategy</span>, with
+          automated testing and CI/CD.
         </div>
       </motion.div>
     );
